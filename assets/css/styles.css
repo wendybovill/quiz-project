@@ -1,0 +1,123 @@
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(5, 12, 35);
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(215, 215, 184)!important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    color: rgb(0, 75, 78);
+    margin-bottom: 3.5rem;
+    text-align: center;
+}
+
+h1>span {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+/* Style Interactive Elements on Page */
+
+.button {
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(236, 236, 236);
+    background: rgb(42, 130, 133);
+    width: 15rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(44, 72, 73);
+    border-radius: 5px;
+}
+
+.button:hover {
+    cursor: pointer;
+    box-shadow: 0 0.2rem 1.2rem 0 rgba(44, 72, 73, 0.50);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+    color: rgb(42, 130, 133);
+    background: rgb(226, 226, 226);
+    border: 1px solid rgb(44, 72, 73);
+    border-radius: 5px;
+}
+
+.button[disabled],
+.button[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+
+/*  Centering the page */
+
+.container {
+    max-width: 75%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+}
+
+.container * {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.centered-blocktext {
+    justify-content: center;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    /* Change flow of text to vertical column */
+    display: flex;
+    flex-direction: column;
+}
+
+.middlepage {
+    margin: 2vh 15vw;
+}
+
+.hide {
+    display: none;
+}
