@@ -38,9 +38,21 @@ start_quiz = () => {
     getNewQuestion();
 };
 
-getNewQuestion = getNewQuestion();
+getNewQuestion = () => {
 
-startGame();
+    questionCounter++;
+    const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+    currentQuestion = availableQuestions[questionIndex];
+    question.innerText = currentQuestion.question;
+
+    options.forEach( option => {
+        const number = option.dataset["number"];
+        option.innerText = currentQuestion["option" + number];
+    });
+
+}
+
+startQuiz();
 
 
 alert('hello world');
