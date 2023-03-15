@@ -29,6 +29,7 @@
 .option-text {
     padding: 1.25rem 2rem;
     height: 100%;
+    width: 100%;
 }
 
 p {
@@ -37,4 +38,18 @@ p {
     margin-bottom: 0!important;
     border-top-left-radius: 4.48px;
     border-bottom-left-radius: 4.48px;
+}
+
+#hud {
+    display:flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
 }

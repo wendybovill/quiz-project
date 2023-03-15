@@ -12,7 +12,7 @@ const question = document.getElementById('question');
 const options = Array.from(document.getElementById('options'));
 
 let currentQuestion = {};
-let acceptingAnswers = true;
+let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
@@ -31,24 +31,41 @@ start_quiz = () => {
 };
 
 getNextQuestion = () => {
+if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
+    return window.location.assign("/end.html");
+}
 
-    questionCounter++;
+    //Selecting random questions from the question object array
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
-
+    //changing the innerText for the Questions in relation to the option chosen
     options.forEach( option => {
         const number = option.dataset["number"];
         option.innerText = currentQuestion["option" + number];
     });
 
+    // splitting up the questions so they don't get repeated questions    
     availableQuestions.splice(questionIndex, 1);
 
     acceptingAnswers = true;
+    questionCounter++;
 }
 
 startQuiz();
 
+options.forEach(option => {
+    option.addEventListner("click", element => {
+        if(!acceptingAnswers) return;
+
+        acceptingAnswers = false;
+        const selectedOption = element.target;
+        const selectedAnswer = selectedOption.dataset["number"];
+
+        getNextQuestion();
+    });
+
+});
 
 alert('hello world');
 

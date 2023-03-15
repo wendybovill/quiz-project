@@ -15,9 +15,34 @@
 
 <body>
     <div class="container">
+    <div id="loader"></div>
+    <div id="game" class="justify-center flex-column hidden">
+    <!-- Display HUD -->
+        <div id="hud">
+            <!-- Display Question Number so far -->
+            <div id="hud-item">
+              <p id="progressText" class="hud-prefix">
+                Question
+              </p>
+            <!-- Display Progress Bar -->
+              <div id="progressBar">
+                <div id="progressBarFull"></div>
+              </div>
+            </div>
+            <!-- Display Score -->
+            <div id="hud-item">
+              <p class="hud-prefix">
+                Score
+              </p>
+              <h1 class="hud-main-text" id="score">
+                0
+              </h1>
+            </div>
+        </div>
+        </div>
         <!-- This content is for the main quiz Q & A -->
         <div id="game" class="centered-blocktext flex-column middlepage">
-            <h2 id="question">What is this question going to be?</h2>
+            <h2 id="question">Test your Wellbeing knowledge</h2>
 
             <div class="option-container">
                 <p class="option-prefix">A</p>
@@ -37,7 +62,7 @@
             </div>
         </div>
     </div>
-
+</div>
     <script src="assets/scripts/quiz.js"></script>
 </body>
 
