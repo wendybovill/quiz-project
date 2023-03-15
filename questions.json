@@ -1,5 +1,5 @@
 [{
-        "question ": "How does exercise help with your mental wellbeing?",
+        "question": "How does exercise help with your mental wellbeing?",
         "option1": "Makes me cry less",
         "option2": "Makes me feel happy",
         "option3": "Distracts me from other things",
@@ -7,7 +7,7 @@
         "answer": "Helps me have less tension, stress and mental fatigue"
     },
     {
-        "question ": "How does exercise help in managing your diet?",
+        "question": "How does exercise help in managing your diet?",
         "option1": "Makes me want to eat less",
         "option2": "Makes me lose weight",
         "option3": "Helps regulate my metabolism so I have a health appetite",
@@ -15,7 +15,7 @@
         "answer": "Helps regulate my metabolism so I have a health appetite"
     },
     {
-        "question ": "A simple workout can effect your productivity:",
+        "question": "A simple workout can effect your productivity:",
         "option1": "Give me strength to do more intensive tasks",
         "option2": "Give me a natural energy boost",
         "option3": "Make me more competitive with others",
@@ -23,7 +23,7 @@
         "answer": "Give me a natural energy boost"
     },
     {
-        "question ": "What hormones make us happy after we exercise?",
+        "question": "What hormones make us happy after we exercise?",
         "option1": "testosterones",
         "option2": "prostoglandins",
         "option3": "endorphins",
@@ -31,7 +31,7 @@
         "answer": "endorphins"
 },
 {
-        "question ": "What is CBT an acronym for?",
+        "question": "What is CBT an acronym for?",
         "option1": "Change By Thought",
         "option2": "Careful But Thorough",
         "option3": "Cognitive Behavioural Therapy",
