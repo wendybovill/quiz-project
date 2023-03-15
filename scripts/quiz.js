@@ -19,37 +19,36 @@ let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
-let questions =[{
-    question: "Inside which HTML element do we put the JavaScript??",
-    option1: "<script>",
-    option2: "<javascript>",
-    option3: "<js>",
-    option4: "<scripting>",
-    answer: 1
-  },
-  {
-    question:
-      "What is the correct syntax for referring to an external script called 'xxx.js'?",
-    option1: "<script href='xxx.js'>",
-    option2: "<script name='xxx.js'>",
-    option3: "<script src='xxx.js'>",
-    option4: "<script file='xxx.js'>",
-    answer: 3
-  },
-  {
-    question: " How do you write 'Hello World' in an alert box?",
-    option1: "msgBox('Hello World');",
-    option2: "alertBox('Hello World');",
-    option3: "msg('Hello World');",
-    option4: "alert('Hello World');",
-    answer: 4
-  }
+let questions = [{
+        question: "Inside which HTML element do we put the JavaScript??",
+        option1: "<script>",
+        option2: "<javascript>",
+        option3: "<js>",
+        option4: "<scripting>",
+        answer: 1
+    },
+    {
+        question: "What is the correct syntax for referring to an external script called 'xxx.js'?",
+        option1: "<script href='xxx.js'>",
+        option2: "<script name='xxx.js'>",
+        option3: "<script src='xxx.js'>",
+        option4: "<script file='xxx.js'>",
+        answer: 3
+    },
+    {
+        question: " How do you write 'Hello World' in an alert box?",
+        option1: "msgBox('Hello World');",
+        option2: "alertBox('Hello World');",
+        option3: "msg('Hello World');",
+        option4: "alert('Hello World');",
+        answer: 4
+    }
 ];
 
 
-/*fetch('questions.json')
-    .then((result) => {
-        return result.json();
+fetch('questions.json')
+    .then((res) => {
+        return res.json();
     })
     .then((loadedQuestions) => {
         questions = loadedQuestions;
@@ -57,7 +56,7 @@ let questions =[{
     })
     .catch((error) => {
         console.error(error);
-    });*/
+    });
 
 // set bonus for correct questions and set max questions
 const BONUS = 10;
@@ -73,16 +72,16 @@ startQuiz = () => {
 };
 
 getNextQuestion = () => {
-if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
-    return window.location.assign("/end.html");
-}
+    if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
+        return window.location.assign("/end.html");
+    }
 
     //Selecting random questions from the question object array
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
     //changing the innerText for the Questions in relation to the option chosen
-    options.forEach( option => {
+    options.forEach(option => {
         const number = option.dataset["number"];
         option.innerText = currentQuestion["option" + number];
     });
@@ -98,7 +97,7 @@ startQuiz();
 
 options.forEach(option => {
     option.addEventListner("click", element => {
-        if(!acceptingAnswers) return;
+        if (!acceptingAnswers) return;
 
         acceptingAnswers = false;
         const selectedOption = element.target;
@@ -111,4 +110,4 @@ options.forEach(option => {
 
 alert('hello world');
 
-module.exports = {quiz};
+module.exports = { quiz };
