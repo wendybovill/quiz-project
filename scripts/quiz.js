@@ -9,7 +9,10 @@
 // Declaring initial variables
 
 const question = document.getElementById('question');
-const options = Array.from(document.getElementById('options'));
+const options = Array.from(document.getElementsByClassName('option-text'));
+const progressInfo = document.getElementById('progressInfo');
+const scoreInfo = document.getElementById('score');
+const progressFullBar = document.getElementById('progressFullBar');
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -17,6 +20,8 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 let questions = [];
+
+
 
 const BONUS = 10;
 const MAX_QUESTIONS = 4;
