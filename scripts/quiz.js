@@ -17,17 +17,37 @@ const progressFullBar = document.getElementById('progressFullBar');
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
-let questionCounter = 0;
+let counter = 0;
 let availableQuestions = [];
-let questions = [{}];
+let questions = [{}, ];
 
 
-fetch('questions.json')
-    .then((res) => {
+fetch('https://opentdb.com/api.php?amount=40&category=9&difficulty=easy&type=multiple')
+
+.then((res) => {
         return res.json();
     })
     .then((loadedQuestions) => {
-        questions = loadedQuestions;
+        questions = loadedQuestions.results.map((loadedQuestion) => {
+            const formattedQuestion = {
+                question: loadedQuestion.question,
+            };
+
+            const answerOptions = [...loadedQuestion.incorrect_answers];
+            formattedQuestion.answer = Math.floor(Math.random() * 4) + 1;
+            answerOptions.splice(
+                formattedQuestion.answer - 1,
+                0,
+                loadedQuestion.correct_answer
+            );
+
+            answerOptions.forEach((option, index) => {
+                formattedQuestion['option' + (index + 1)] = option;
+            });
+
+            return formattedQuestion;
+        });
+
         startQuiz();
     })
     .catch((error) => {
@@ -36,11 +56,11 @@ fetch('questions.json')
 
 // set bonus for correct questions and set max questions
 const BONUS = 10;
-const MAX_QUESTIONS = 4;
+const MAX_QUESTIONS = 10;
 
 // Declaring first function to start the quiz with 0 counter, scores etc.
 startQuiz = () => {
-    questionCounter = 0;
+    counter = 0;
     score = 0;
     availableQuestions = [...questions];
     console.log(availableQuestions);
@@ -48,42 +68,66 @@ startQuiz = () => {
 };
 
 getNextQuestion = () => {
-    if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
+    if (availableQuestions.length === 0 || counter >= MAX_QUESTIONS) {
+        localStorage.setItem('score', score);
         return window.location.assign("/end.html");
     }
 
     //Selecting random questions from the question object array
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
-    question.innerText = currentQuestion.question;
+    question.innerHTML = currentQuestion.question;
     //changing the innerText for the Questions in relation to the option chosen
     options.forEach(option => {
         const number = option.dataset["number"];
-        option.innerText = currentQuestion["option" + number];
+        option.innerHTML = currentQuestion["option" + number];
     });
 
     // splitting up the questions so they don't get repeated questions    
     availableQuestions.splice(questionIndex, 1);
 
     acceptingAnswers = true;
-    questionCounter++;
+
+    //Update Question counter
+    counter++;
+    progressInfo.innerText = `Question ${counter}/${MAX_QUESTIONS}`;
+    //Update the progress bar
+    progressFullBar.style.width = `${(counter / MAX_QUESTIONS) * 100}%`;
+
+
 }
 
 startQuiz();
 
-options.forEach(option => {
-    option.addEventListner("click", element => {
+options.forEach((option) => {
+    option.addEventListener('click', (e) => {
         if (!acceptingAnswers) return;
 
         acceptingAnswers = false;
-        const selectedOption = element.target;
-        const selectedAnswer = selectedOption.dataset["number"];
+        const selectedOption = e.target;
+        const selectedAnswer = selectedOption.dataset['number'];
 
-        getNextQuestion();
+        const classToApply =
+            selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+
+        if (classToApply === 'correct') {
+            incrementScore(BONUS);
+        }
+
+        selectedOption.parentElement.classList.add(classToApply);
+
+        setTimeout(() => {
+            selectedOption.parentElement.classList.remove(classToApply);
+            getNextQuestion();
+        }, 1000);
     });
-
 });
 
-alert('hello world');
+
+
+incrementScore = (num) => {
+    score += num;
+    scoreInfo.innerText = score;
+};
 
 module.exports = { quiz };
