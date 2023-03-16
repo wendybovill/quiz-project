@@ -69,7 +69,7 @@ startQuiz = () => {
 
 getNextQuestion = () => {
     if (availableQuestions.length === 0 || counter >= MAX_QUESTIONS) {
-        localStorage.setItem('score', score);
+        localStorage.setItem('latestScore', score);
         return window.location.assign("/end.html");
     }
 
