@@ -44,6 +44,14 @@ h3 {
     font-weight: 600;
 }
 
+h2.your-score {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    text-align: center;
+    align-items: center;
+}
+
 
 /* Style Interactive Elements on Page */
 
@@ -53,7 +61,7 @@ h3 {
     text-decoration: none;
     color: rgb(236, 236, 236);
     background: rgb(42, 130, 133);
-    width: 15rem;
+    width: 10rem;
     padding: 1rem;
     margin-bottom: 1rem;
     border: 1px solid rgb(44, 72, 73);
@@ -116,9 +124,43 @@ h3 {
 }
 
 .middlepage {
-    margin: 2vh 15vw;
+    margin: 2vh 7.5vw;
 }
 
 .hide {
     display: none;
+}
+
+input.username {
+    width: 34rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.form-center {
+    text-align: center;
+    justify-content: center;
+}
+
+.finalscore {
+    font-size: 3rem;
 }

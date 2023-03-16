@@ -50,12 +50,23 @@ p {
 }
 
 .hud-prefix {
-    text-align: center;
+    text-align: left;
     font-size: 2rem;
+    width: 100%;
+}
+
+.hud-prefix-right {
+    text-align: right;
+    font-size: 2rem;
+    width: 100%;
+}
+
+#hud-question {
+    float: left;
 }
 
 .hud-main-text {
-    text-align: center;
+    text-align: right;
 }
 
 .correct {
@@ -73,6 +84,7 @@ p {
     height: 4rem;
     border: 0.5px solid rgb(44, 72, 73);
     border-radius: 5px;
+    float: left;
 }
 
 #progressFullBar {
@@ -81,6 +93,11 @@ p {
     border-radius: 5px;
     background-color: rgba(12, 128, 132, 0.537);
     margin: 0;
+}
+
+.progressBar-wrapper {
+    display: block;
+    align-content: left;
 }
 
 #quiz-wrapper {
@@ -92,4 +109,11 @@ p {
 
 #question {
     padding: 2rem 0;
+}
+
+.fullwidth {
+    display: block;
+    top: 5px;
+    position: absolute;
+    width: 100%;
 }
