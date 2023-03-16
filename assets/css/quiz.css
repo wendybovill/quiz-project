@@ -4,7 +4,7 @@
     width: 100%;
     font-size: 1.8rem;
     border: 1px solid rgb(44, 72, 73);
-    background: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
 }
 
@@ -14,7 +14,7 @@
     transform: translateY(-0.1rem);
     transition: transform 150ms;
     color: rgb(22, 37, 37);
-    background: rgb(255, 244, 158);
+    background-color: rgba(255, 244, 158, 0.285);
     border-radius: 5px;
     border: 1px solid rgb(44, 72, 73);
 }
@@ -30,6 +30,9 @@
     padding: 1.25rem 2rem;
     height: 100%;
     width: 100%;
+    background-color: rgba(12, 128, 132, 0.266);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 p {
@@ -56,11 +59,13 @@ p {
 }
 
 .correct {
-    background-color: rgba(98, 196, 0, 0.207);
+    background: unset;
+    background: rgba(98, 196, 0, 0.207);
 }
 
 .incorrect {
-    background-color: rgba(178, 34, 34, 0.386);
+    background: unset;
+    background: rgba(178, 34, 34, 0.386);
 }
 
 #progressBar {
@@ -76,4 +81,15 @@ p {
     border-radius: 5px;
     background-color: rgba(12, 128, 132, 0.537);
     margin: 0;
+}
+
+#quiz-wrapper {
+    background: rgba(255, 255, 255, 0.368);
+    border-radius: 25px;
+    border: 0.5px solid rgb(138, 138, 138);
+    padding: 2rem;
+}
+
+#question {
+    padding: 2rem 0;
 }

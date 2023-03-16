@@ -22,6 +22,7 @@ let availableQuestions = [];
 let questions = [{}, ];
 
 
+
 fetch('https://opentdb.com/api.php?amount=40&category=9&difficulty=easy&type=multiple')
 
 .then((res) => {
@@ -43,6 +44,7 @@ fetch('https://opentdb.com/api.php?amount=40&category=9&difficulty=easy&type=mul
 
             answerOptions.forEach((option, index) => {
                 formattedQuestion['option' + (index + 1)] = option;
+
             });
 
             return formattedQuestion;
@@ -100,6 +102,7 @@ getNextQuestion = () => {
 startQuiz();
 
 options.forEach((option) => {
+
     option.addEventListener('click', (e) => {
         if (!acceptingAnswers) return;
 
@@ -107,8 +110,7 @@ options.forEach((option) => {
         const selectedOption = e.target;
         const selectedAnswer = selectedOption.dataset['number'];
 
-        const classToApply =
-            selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+        const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
         if (classToApply === 'correct') {
             incrementScore(BONUS);
@@ -119,10 +121,9 @@ options.forEach((option) => {
         setTimeout(() => {
             selectedOption.parentElement.classList.remove(classToApply);
             getNextQuestion();
-        }, 1000);
+        }, 500);
     });
 });
-
 
 
 incrementScore = (num) => {
