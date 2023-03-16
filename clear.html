@@ -15,12 +15,10 @@
     <div class="container">
         <!-- This is the end section after the quiz is played, the player gets the option to save their score -->
         <div id="end" class="flex-center flex-column middlepage">
-            <h1>Congratulations for finishing the quiz</h1>
-            <h2>Do you want to save your scores?</h2>
-            <h1 id="finalScore"></h1>
-            <form id="form_saveScore">
-                <input type="text" name="username" id="username" placeholder="username">
-                <button type="submit" class="button" id="saveScore" onclick="saveTopScore(event);" disabled>Save Score</button>
+            <h1>Remove Score</h1>
+            <h2>Are you sure you want to delete all your scores?</h2>
+            <form id="form_removeScore">
+                <button type="submit" class="button" id="clearScore" onclick="clearScores(event);">Clear All Scores</button>
             </form>
             <!-- The player can choose to return to the front page, view the topscores, or restart the quiz -->
             <h2>What would you like to do next?</h2>
@@ -29,7 +27,7 @@
             <a class="button" href="/index.html">Go Home</a>
         </div>
     </div>
-    <script src="scripts/save_score.js"></script>
+    <script src="scripts/remove_user_score.js"></script>
 </body>
 
 </html>
