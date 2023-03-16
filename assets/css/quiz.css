@@ -54,3 +54,26 @@ p {
 .hud-main-text {
     text-align: center;
 }
+
+.correct {
+    background-color: rgba(98, 196, 0, 0.207);
+}
+
+.incorrect {
+    background-color: rgba(178, 34, 34, 0.386);
+}
+
+#progressBar {
+    width: 20rem;
+    height: 4rem;
+    border: 0.5px solid rgb(44, 72, 73);
+    border-radius: 5px;
+}
+
+#progressFullBar {
+    width: 0%;
+    height: 3.8rem;
+    border-radius: 5px;
+    background-color: rgba(12, 128, 132, 0.537);
+    margin: 0;
+}
