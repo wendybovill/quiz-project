@@ -1,0 +1,16 @@
+#listTopScores {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    list-style: none;
+}
+
+.topscore {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: rgb(87, 0, 0);
+}
+
+.topscore:hover {
+    transform: scaleX(1.25);
+    color: firebrick;
+}
