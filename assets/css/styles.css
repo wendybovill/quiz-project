@@ -11,7 +11,12 @@
 }
 
 body {
-    background-color: rgb(215, 215, 184)!important;
+    /* background-color: rgb(215, 215, 184)!important;*/
+    background: rgba(253, 187, 45, 0.5);
+    background: -moz-linear-gradient(45deg, rgba(253, 187, 45, 0.5) 0%, rgba(34, 193, 195, 0.5) 8%, rgba(214, 218, 175, 0.5) 24%, rgba(214, 218, 175, 0.5) 71%, rgba(34, 193, 195, 0.5) 92%, rgba(253, 187, 45, 0.5) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(253, 187, 45, 0.5) 0%, rgba(34, 193, 195, 0.5) 8%, rgba(214, 218, 175, 0.5) 24%, rgba(214, 218, 175, 0.5) 71%, rgba(34, 193, 195, 0.5) 92%, rgba(253, 187, 45, 0.5) 100%);
+    background: linear-gradient(45deg, rgba(253, 187, 45, 0.5) 0%, rgba(34, 193, 195, 0.5) 8%, rgba(214, 218, 175, 0.5) 24%, rgba(214, 218, 175, 0.5) 71%, rgba(34, 193, 195, 0.5) 92%, rgba(253, 187, 45, 0.5) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#fdbb2d", endColorstr="#fdbb2d", GradientType=1);
 }
 
 h1,
@@ -60,8 +65,8 @@ h2.your-score {
     text-align: center;
     text-decoration: none;
     color: rgb(236, 236, 236);
-    background: rgb(42, 130, 133);
-    width: 10rem;
+    background: rgb(11, 76, 79);
+    width: 30rem;
     padding: 1rem;
     margin-bottom: 1rem;
     border: 1px solid rgb(44, 72, 73);
@@ -73,7 +78,7 @@ h2.your-score {
     box-shadow: 0 0.2rem 1.2rem 0 rgba(44, 72, 73, 0.50);
     transform: translateY(-0.1rem);
     transition: transform 150ms;
-    color: rgb(42, 130, 133);
+    color: rgb(14, 63, 65);
     background: rgb(226, 226, 226);
     border: 1px solid rgb(44, 72, 73);
     border-radius: 5px;
@@ -100,7 +105,7 @@ h2.your-score {
     padding: 2rem;
 }
 
-.container * {
+.container>* {
     width: 100%;
 }
 
@@ -163,4 +168,9 @@ input.username {
 
 .finalscore {
     font-size: 3rem;
+}
+
+p.intro {
+    font-size: 2rem;
+    padding: 2%;
 }

@@ -4,7 +4,7 @@
         "option2": "Makes me feel happy",
         "option3": "Distracts me from other things",
         "option4": "Helps me have less tension, stress and mental fatigue",
-        "answer": 4
+        "answer": "Helps me have less tension, stress and mental fatigue"
     },
     {
         "question": "How does exercise help in managing your diet?",
@@ -12,7 +12,7 @@
         "option2": "Makes me lose weight",
         "option3": "Helps regulate my metabolism so I have a health appetite",
         "option4": "Makes me drink more so I eat less",
-        "answer": 3
+        "answer": "Helps regulate my metabolism so I have a health appetite"
     },
     {
         "question": "A simple workout can effect your productivity:",
@@ -20,7 +20,7 @@
         "option2": "Give me a natural energy boost",
         "option3": "Make me more competitive with others",
         "option4": "Make me feel more confident",
-        "answer": 2
+        "answer": "Give me a natural energy boost"
     },
     {
         "question": "What hormones make us happy after we exercise?",
@@ -28,7 +28,7 @@
         "option2": "prostoglandins",
         "option3": "endorphins",
         "option4": "thyroxin",
-        "answer": 3
+        "answer": "endorphins"
     },
     {
         "question": "What is CBT an acronym for?",
@@ -36,7 +36,7 @@
         "option2": "Careful But Thorough",
         "option3": "Cognitive Behavioural Therapy",
         "option4": "Call Back Today",
-        "answer": 3
+        "answer": "Cognitive Behavioural Therapy"
     },
     {
         "question": "Psychologists in London claim they have cracked the code on the ideal embrace, saying hugs should last between: (countryliving.com)",
@@ -44,7 +44,7 @@
         "option2": "five and 10 seconds",
         "option3": "1 and 2 minutes",
         "option4": "10 to 15 minutes",
-        "answer": 2
+        "answer": ""
     },
     {
         "question": "Why does having a pet make a difference to your mood?",
@@ -52,7 +52,7 @@
         "option2": "We can talk to others about them",
         "option3": "Pets can help manage loneliness and depression by giving us companionship",
         "option4": "We can meet others with pets when in the park",
-        "answer": 3
+        "answer": ""
     },
     {
         "question": "How many glasses of water/liquid a day should we have?",
@@ -60,15 +60,15 @@
         "option2": "2 to 3",
         "option3": "4 to 6",
         "option4": "6 to 8",
-        "answer": 4
+        "answer": ""
     },
     {
         "question": "What does water help with:",
         "option1": "Visiting the toilet more",
-        "option2": "Less dehydration more clear thinking",
+        "option2": "Less dehydration more Clear thinking",
         "option3": "More fatigue",
         "option4": "Increasing blood pressure",
-        "answer": 2
+        "answer": ""
     },
     {
         "question": "How important is diet in effecting our moods?",
@@ -76,7 +76,7 @@
         "option2": "Getting the correct nutrients makes my body work better so I''m happier",
         "option3": "Not eating much makes me feel less worried about how I look",
         "option4": "Blood sugar fluctuations can effect our moods",
-        "answer": 4
+        "answer": ""
     },
     {
         "question": "What happens when we don''t eat?",
@@ -84,7 +84,7 @@
         "option2": "We make up for it later by over-eating",
         "option3": "The body begins to increase production of cortisol, leaving us stressed and hangry",
         "option4": "We get dehydrated quickly and therefore need to drink more water to compensate",
-        "answer": 3
+        "answer": ""
     },
     {
         "question": "What activity does not lead to improved mood, if you can''t do regular exercise?",
@@ -92,7 +92,7 @@
         "option2": "Sitting in a park",
         "option3": "Watching TV",
         "option4": "Playing with your pet",
-        "answer": 3
+        "answer": ""
     },
     {
         "question": "What is mindfulness?",
@@ -100,7 +100,7 @@
         "option2": "Being conscious of our surroundings and the events that effect them",
         "option3": "Having an awareness of feelings, bodily sensations, and surrounding environment moment by moment",
         "option4": "Having a friend check in with us to be mindful of the difficulties we are going through",
-        "answer": 3
+        "answer": ""
     },
     {
         "question": "Why are having goals important?",
@@ -108,7 +108,7 @@
         "option2": "Gives us a holiday to plan for",
         "option3": "Helps us score points at football/rugby/hockey",
         "option4": "Stops us kicking the ball all over the field and into the crowds",
-        "answer": 3
+        "answer": ""
     },
     {
         "question": "How does vitamin D boost our wellbeing?",
@@ -116,7 +116,7 @@
         "option2": "Prevents Rickets",
         "option3": "Increases Serotonin, fights depression and increases happiness",
         "option4": "Helps us get a tan when sitting in the sun",
-        "answer": 3
+        "answer": ""
     },
     {
         "question": "Why is sleep so important to our wellbeing?",
@@ -124,7 +124,7 @@
         "option2": "It helps us process emotional information so we can regulate",
         "option3": "It lets us have time to dream and this helps us escape from reality",
         "option4": "It decreases fatigue so we can have energy to interact with others in the day",
-        "answer": 2
+        "answer": ""
     },
     {
         "question": "What happens when we don''t get enough sleep?",
@@ -132,7 +132,7 @@
         "option2": "Lack of sleep can lead to being less alert and falling asleep while watching tv",
         "option3": "We slur our words when we haven''t had enough sleep and people don''t understand us",
         "option4": "Lack of sleep can lead to less patience and get angry quickly leading to outbursts",
-        "answer": 1
+        "answer": ""
     },
     {
         "question": "What is emotional regulation?",
@@ -140,7 +140,7 @@
         "option2": "Expressing your emotions in a safe place",
         "option3": "Knowing when to express your emotions and the appropriate way",
         "option4": "Being in control of your emotions so that you don''t become overwhelmed",
-        "answer": 4
+        "answer": ""
     },
     {
         "question": "What effect does sitting in the sunshine have?",
@@ -148,7 +148,7 @@
         "option2": "It makes us hot",
         "option3": "It increases vitamin D production",
         "option4": "It helps us get a tan",
-        "answer": 3
+        "answer": ""
     },
     {
         "question": "What is melatonin vs melanin?",
@@ -156,15 +156,15 @@
         "option2": "Melatonin is what is released to darken our skin in the sun, Melanin is a sleep hormone",
         "option3": "Melanin breaks down Melatonin, so that our bodies can absorb vitamin D from the sun",
         "option4": "Melanin is a type of plastic that is used for plates and cups, Melatonin is an exercise to help us tone our muscles",
-        "answer": 1
+        "answer": ""
     },
     {
-        "question": "How does Boxing physically help our moods?",
+        "question": "How does Boxing help our moods?",
         "option1": "We can pretend we are hitting the person we don''t like",
         "option2": "We release endorphins when we exercise so that helps improve our mood",
         "option3": "We have a sparring partner so we can interact socially too",
         "option4": "We test our own limits and gain confidence",
-        "answer": 2
+        "answer": ""
     },
     {
         "question": "When you have a difficult task, what can you plan to motivate you to achieve it?",
@@ -172,15 +172,15 @@
         "option2": "A break in-between things",
         "option3": "A reward to look forward to when completed",
         "option4": "A chat with a friend",
-        "answer": 3
+        "answer": ""
     },
     {
-        "question": "How many units of alcohol should you have a week to help improve your wellbeing?",
+        "question": "How many units of alcohol should you have a week to help improve your moods?",
         "option1": "2",
         "option2": "0",
         "option3": "4",
         "option4": "10",
-        "answer": 0
+        "answer": ""
     },
     {
         "question": "Does caffeine help with anxiety? Why?",
@@ -188,7 +188,7 @@
         "option2": "No, it makes my heart race and I feel more panicky",
         "option3": "Yes, it moves the hormones around by body faster so I calm down quicker",
         "option4": "No, it stimulates fight or flight response and can make anxiety worse",
-        "answer": 4
+        "answer": ""
     },
     {
         "question": "What tea can help reduce anxiety and aid with restful sleep?",
@@ -196,6 +196,6 @@
         "option2": "Mint tea",
         "option3": "Green tea",
         "option4": "Camomile tea",
-        "answer": 4
+        "answer": ""
     }
 ]

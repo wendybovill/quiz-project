@@ -8,11 +8,13 @@
 
 // Declaring initial variables
 
+
 const question = document.getElementById('question');
 const options = Array.from(document.getElementsByClassName('option-text'));
 const progressInfo = document.getElementById('progressInfo');
 const scoreInfo = document.getElementById('score');
 const progressFullBar = document.getElementById('progressFullBar');
+const quiz = document.getElementById('quiz');
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -22,8 +24,9 @@ let availableQuestions = [];
 let questions = [{}, ];
 
 
+//fetch the custom made api of wellbeing quiz questions
 
-fetch('https://opentdb.com/api.php?amount=40&category=9&difficulty=easy&type=multiple')
+fetch('api.json')
 
 .then((res) => {
         return res.json();
@@ -50,6 +53,7 @@ fetch('https://opentdb.com/api.php?amount=40&category=9&difficulty=easy&type=mul
             return formattedQuestion;
         });
 
+
         startQuiz();
     })
     .catch((error) => {
@@ -67,6 +71,8 @@ startQuiz = () => {
     availableQuestions = [...questions];
     console.log(availableQuestions);
     getNextQuestion();
+    quiz.classList.remove('hidden');
+    loader.classList.add('hidden');
 };
 
 getNextQuestion = () => {
@@ -115,13 +121,13 @@ options.forEach((option) => {
         if (classToApply === 'correct') {
             incrementScore(BONUS);
         }
-
         selectedOption.parentElement.classList.add(classToApply);
 
-        setTimeout(() => {
+
+        /*setTimeout(() => {
             selectedOption.parentElement.classList.remove(classToApply);
             getNextQuestion();
-        }, 500);
+        }, 1000);*/
     });
 });
 

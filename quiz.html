@@ -24,7 +24,7 @@
                 <!-- Display HUD -->
                 <div id="hud">
                     <!-- Display Question Number so far -->
-                    <div id="hud-item">
+                    <div id="hud-item" class="hud-wrapper">
                         <!-- Display Progress Bar -->
                         <div class="progressBar-wrapper">
                             <div>
@@ -38,7 +38,7 @@
                         </div>
                     </div>
                     <!-- Display Score -->
-                    <div id="hud-item2">
+                    <div id="hud-item2" class="hud-wrapper">
                         <p class="hud-prefix-right">
                             Score
                         </p>
@@ -71,6 +71,9 @@
                     <p data-number="4" class="option-text"></p>
                 </div>
             </div>
+            <form id="nextQuestion" class="form-center">
+                <button type="submit" class="button" id="nextQ" onclick="getNextQuestion();">Next Question</button>
+            </form>
         </div>
     </div>
     </div>

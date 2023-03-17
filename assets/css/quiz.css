@@ -50,13 +50,13 @@ p {
 }
 
 .hud-prefix {
-    text-align: left;
+    text-align: center;
     font-size: 2rem;
     width: 100%;
 }
 
 .hud-prefix-right {
-    text-align: right;
+    text-align: center;
     font-size: 2rem;
     width: 100%;
 }
@@ -66,17 +66,15 @@ p {
 }
 
 .hud-main-text {
-    text-align: right;
+    text-align: center;
 }
 
 .correct {
-    background: unset;
-    background: rgba(98, 196, 0, 0.207);
+    color: darkgreen;
 }
 
 .incorrect {
-    background: unset;
-    background: rgba(178, 34, 34, 0.386);
+    color: darkred;
 }
 
 #progressBar {
@@ -105,6 +103,11 @@ p {
     border-radius: 25px;
     border: 0.5px solid rgb(138, 138, 138);
     padding: 2rem;
+}
+
+.hud-wrapper {
+    background: rgba(255, 244, 158, 0.397);
+    padding: 0.5rem;
 }
 
 #question {
