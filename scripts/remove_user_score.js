@@ -2,9 +2,21 @@
 const username = document.getElementById('username');
 const clearScore = document.getElementById('clearScore');
 const finalScore = document.getElementById('finalScore');
-const clearItems = localStorage.getItem('topScore');
+const clearItems = localStorage.getItem('topScores');
 
-/* When the user enters their username, allow clear button to be active - removed disabled */
+
+/* Clear Scores Function called once confirmation is made */
 clearScores = (e) => {
     window.localStorage.clear(clearItems);
+    alert("All player scores have been removed");
+}
+
+// Confirm Clear Scores by alert box or alert scores have not been cleared
+clearScoresConfirm = (e) => {
+    e.preventDefault();
+    if (confirm("Are you sure you want to delete ALL player scores?")) {
+        clearScores();
+    } else {
+        alert("The scores have not been cleared.");
+    }
 }
