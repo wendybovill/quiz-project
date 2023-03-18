@@ -14,6 +14,10 @@ const options = Array.from(document.getElementsByClassName('option-text'));
 const progressInfo = document.getElementById('progressInfo');
 const scoreInfo = document.getElementById('score');
 const progressFullBar = document.getElementById('progressFullBar');
+const quiz = document.getElementById('quiz2');
+const loader = document.getElementById('loader');
+
+
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -67,12 +71,14 @@ startQuiz = () => {
     availableQuestions = [...questions];
     console.log(availableQuestions);
     getNextQuestion();
+    quiz2.classList.remove('hide');
+    loader.classList.add('hide');
 };
 
 getNextQuestion = () => {
     if (availableQuestions.length === 0 || counter >= MAX_QUESTIONS) {
         localStorage.setItem('latestScore', score);
-        return window.location.assign("/end.html");
+        return window.location.assign('/end.html');
     }
 
     //Selecting random questions from the question object array
@@ -81,8 +87,8 @@ getNextQuestion = () => {
     question.innerHTML = currentQuestion.question;
     //changing the innerText for the Questions in relation to the option chosen
     options.forEach(option => {
-        const number = option.dataset["number"];
-        option.innerHTML = currentQuestion["option" + number];
+        const number = option.dataset['number'];
+        option.innerHTML = currentQuestion['option' + number];
     });
 
     // splitting up the questions so they don't get repeated questions    
@@ -116,10 +122,10 @@ options.forEach((option) => {
             incrementScore(BONUS);
         }
 
-        selectedOption.parentElement.classList.add(classToApply);
+        selectedOption.classList.add(classToApply);
 
         setTimeout(() => {
-            selectedOption.parentElement.classList.remove(classToApply);
+            selectedOption.classList.remove(classToApply);
             getNextQuestion();
         }, 500);
     });
@@ -131,4 +137,4 @@ incrementScore = (num) => {
     scoreInfo.innerText = score;
 };
 
-module.exports = { quiz };
+//module.exports = { quiz };

@@ -2,7 +2,7 @@
     display: flex;
     margin-bottom: 0.5rem;
     width: 100%;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     border: 1px solid rgb(44, 72, 73);
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
@@ -13,7 +13,6 @@
     box-shadow: 0 0.2rem 1.2rem 0 rgba(44, 72, 73, 0.50);
     transform: translateY(-0.1rem);
     transition: transform 150ms;
-    color: rgb(22, 37, 37);
     background-color: rgba(255, 244, 158, 0.285);
     border-radius: 5px;
     border: 1px solid rgb(44, 72, 73);
@@ -27,7 +26,7 @@
 }
 
 .option-text {
-    padding: 1.25rem 2rem;
+    padding: 1.25rem 1rem;
     height: 100%;
     width: 100%;
     background-color: rgba(12, 128, 132, 0.266);
@@ -45,8 +44,9 @@ p {
 
 #hud {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 2rem;
+    min-height: 100px;
 }
 
 .hud-prefix {
@@ -69,12 +69,14 @@ p {
     text-align: center;
 }
 
-.correct {
-    color: darkgreen;
+p.correct {
+    color: rgb(255, 255, 255);
+    background: rgba(0, 149, 0, 0.527);
 }
 
-.incorrect {
-    color: darkred;
+p.incorrect {
+    color: rgb(255, 255, 255);
+    background-color: rgba(139, 0, 0, 0.428);
 }
 
 #progressBar {
@@ -103,6 +105,8 @@ p {
     border-radius: 25px;
     border: 0.5px solid rgb(138, 138, 138);
     padding: 2rem;
+    margin-top: 10rem;
+    min-width: 150px;
 }
 
 .hud-wrapper {
@@ -117,6 +121,28 @@ p {
 .fullwidth {
     display: block;
     top: 5px;
-    position: absolute;
+    position: fixed;
     width: 100%;
+    height: 100px;
+}
+
+
+/* the loader animation*/
+
+#loader {
+    border: 1rem solid white;
+    border-radius: 50%;
+    border-top: 1rem solid #018b9b;
+    width: 3rem;
+    height: 3rem;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }

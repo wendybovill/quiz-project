@@ -14,41 +14,41 @@
 </head>
 
 <body>
-
-    <div class="container">
-        <div class="fullwidth">
-            <div id="loader"></div>
-        </div>
-        <div class="fullwidth">
-            <div>
-                <!-- Display HUD -->
-                <div id="hud">
-                    <!-- Display Question Number so far -->
-                    <div id="hud-item" class="hud-wrapper">
-                        <!-- Display Progress Bar -->
-                        <div class="progressBar-wrapper">
-                            <div>
-                                <p id="progressInfo" class="hud-prefix">
-                                    Question
-                                </p>
-                            </div>
-                            <div id="progressBar">
-                                <div id="progressFullBar"></div>
-                            </div>
+    <div class="fullwidth">
+        <div>
+            <!-- Display HUD -->
+            <div id="hud">
+                <!-- Display Question Number so far -->
+                <div id="hud-item" class="hud-wrapper">
+                    <!-- Display Progress Bar -->
+                    <div class="progressBar-wrapper">
+                        <div>
+                            <p id="progressInfo" class="hud-prefix">
+                                Question
+                            </p>
+                        </div>
+                        <div id="progressBar">
+                            <div id="progressFullBar"></div>
                         </div>
                     </div>
-                    <!-- Display Score -->
-                    <div id="hud-item2" class="hud-wrapper">
-                        <p class="hud-prefix-right">
-                            Score
-                        </p>
-                        <h1 class="hud-main-text" id="score">
-                            0
-                        </h1>
-                    </div>
+                </div>
+                <div class="justify-content-around">
+                    <div id="loader"></div>
+                </div>
+                <!-- Display Score -->
+                <div id="hud-item2" class="hud-wrapper">
+                    <p class="hud-prefix-right">
+                        Score
+                    </p>
+                    <h1 class="hud-main-text" id="score">
+                        0
+                    </h1>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="container fluid">
+
         <!-- This content is for the main quiz Q & A -->
         <div id="quiz" class="justify-center flex-column hidden middlepage">
             <div id="quiz-wrapper">
@@ -71,9 +71,12 @@
                     <p data-number="4" class="option-text"></p>
                 </div>
             </div>
-            <form id="nextQuestion" class="form-center">
+            <div>
+                <p id="showAnswer"></p>
+            </div>
+            <!-- <form id="nextQuestion" class="form-center">
                 <button type="submit" class="button" id="nextQ" onclick="getNextQuestion();">Next Question</button>
-            </form>
+            </form>-->
         </div>
     </div>
     </div>

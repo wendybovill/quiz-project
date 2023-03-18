@@ -15,6 +15,7 @@ const progressInfo = document.getElementById('progressInfo');
 const scoreInfo = document.getElementById('score');
 const progressFullBar = document.getElementById('progressFullBar');
 const quiz = document.getElementById('quiz');
+const loader = document.getElementById('loader');
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -22,6 +23,8 @@ let score = 0;
 let counter = 0;
 let availableQuestions = [];
 let questions = [{}, ];
+
+
 
 
 //fetch the custom made api of wellbeing quiz questions
@@ -50,6 +53,8 @@ fetch('api.json')
 
             });
 
+            var correctAnswer = loadedQuestion.correct_answer;
+
             return formattedQuestion;
         });
 
@@ -69,16 +74,15 @@ startQuiz = () => {
     counter = 0;
     score = 0;
     availableQuestions = [...questions];
-    console.log(availableQuestions);
     getNextQuestion();
-    quiz.classList.remove('hidden');
-    loader.classList.add('hidden');
+    quiz.classList.remove('hide');
+    loader.classList.add('hide');
 };
 
 getNextQuestion = () => {
     if (availableQuestions.length === 0 || counter >= MAX_QUESTIONS) {
         localStorage.setItem('latestScore', score);
-        return window.location.assign("/end.html");
+        return window.location.assign('/end.html');
     }
 
     //Selecting random questions from the question object array
@@ -87,8 +91,8 @@ getNextQuestion = () => {
     question.innerHTML = currentQuestion.question;
     //changing the innerText for the Questions in relation to the option chosen
     options.forEach(option => {
-        const number = option.dataset["number"];
-        option.innerHTML = currentQuestion["option" + number];
+        const number = option.dataset['number'];
+        option.innerHTML = currentQuestion['option' + number];
     });
 
     // splitting up the questions so they don't get repeated questions    
@@ -116,20 +120,21 @@ options.forEach((option) => {
         const selectedOption = e.target;
         const selectedAnswer = selectedOption.dataset['number'];
 
-        const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+        var classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
-        if (classToApply === 'correct') {
+        if (classToApply == 'correct') {
             incrementScore(BONUS);
         }
-        selectedOption.parentElement.classList.add(classToApply);
+        selectedOption.classList.add(classToApply);
 
 
-        /*setTimeout(() => {
-            selectedOption.parentElement.classList.remove(classToApply);
+        setTimeout(() => {
+            selectedOption.classList.remove(classToApply);
             getNextQuestion();
-        }, 1000);*/
+        }, 1000);
     });
 });
+
 
 
 incrementScore = (num) => {
@@ -137,4 +142,4 @@ incrementScore = (num) => {
     scoreInfo.innerText = score;
 };
 
-module.exports = { quiz };
+//module.exports = { quiz };

@@ -5,8 +5,7 @@
 }
 
 .topscore {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+    font-size: 2rem;
     color: rgb(87, 0, 0);
     text-align: center;
 }
@@ -23,7 +22,7 @@
     width: 100%;
 }
 
-div.topscorelist-centered {
+.topscorelist-centered {
     text-align: center;
 }
 
@@ -31,11 +30,7 @@ div.topscorelist-centered {
     padding: 2rem;
 }
 
-li.score-wrapper {
+.score-wrapper {
     background: rgba(255, 255, 255, 0.368);
     border-radius: 25px;
-    border: 0.5px solid rgb(138, 138, 138);
-    padding: 2rem;
-    max-width: 200px;
-    width: 50%;
 }
