@@ -5,8 +5,10 @@ const finalScore = document.getElementById('finalScore');
 const latestScore = localStorage.getItem('latestScore');
 /* Retrieve the top scores from local storage */
 const topScores = JSON.parse(localStorage.getItem('topScores')) || [];
+const allScores = JSON.parse(localStorage.getItem('allScores')) || [];
 /* How many scores to display? */
-const MAX_TOP_SCORES = 6;
+const MAX_TOP_SCORES = 5;
+const MAX_ALL_SCORES = 50;
 
 /* To display the latest score for the user */
 finalScore.innerText = latestScore;
@@ -25,7 +27,7 @@ saveTopScore = (e) => {
 
     topScores.push(score);
     topScores.sort((a, z) => z.score - a.score); //sort Z to A with the newest Z on top and the older A on bottom
-    topScores.splice(6);
+    topScores.splice(5);
 
     /* Save topscores to local storage in a JSON string */
     localStorage.setItem('topScores', JSON.stringify(topScores));

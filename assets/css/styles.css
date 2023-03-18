@@ -194,3 +194,18 @@ p.intro {
     font-size: 2rem;
     padding: 2%;
 }
+
+#form_removeScore {
+    padding: 3rem 1rem;
+}
+
+.query-text {
+    padding: 2%;
+}
+
+.warning {
+    font-size: 1.25rem;
+    color: red;
+    font-weight: 600;
+    padding-top: 2rem;
+}

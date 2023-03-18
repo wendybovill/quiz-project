@@ -34,3 +34,10 @@
     background: rgba(255, 255, 255, 0.368);
     border-radius: 25px;
 }
+
+ul.allplayers {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

@@ -4,7 +4,6 @@ const clearScore = document.getElementById('clearScore');
 const finalScore = document.getElementById('finalScore');
 const clearItems = localStorage.getItem('topScore');
 
-
 /* When the user enters their username, allow clear button to be active - removed disabled */
 clearScores = (e) => {
     window.localStorage.clear(clearItems);
