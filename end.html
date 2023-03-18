@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- External Stylesheets -->
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -13,6 +14,7 @@
 
 <body>
     <div class="container">
+
         <!-- This is the end section after the quiz is played, the player gets the option to save their score -->
         <div id="end" class="flex-center flex-column middlepage">
             <h1>Congratulations for finishing the quiz</h1>
@@ -20,6 +22,8 @@
             <br>
             <h2 class="your-score">Your Score is</h2>
             <h1 id="finalScore" class="finalscore"></h1>
+
+            <!-- The player can type in their username and save their score -->
             <form id="form_saveScore" class="form-center">
                 <label for="username" class="h2">Do you want to save your scores?</label>
                 <input type="text" name="username" id="username" placeholder="username" class="username">
@@ -32,6 +36,8 @@
             <a class="button" href="/index.html">Go Home</a>
         </div>
     </div>
+
+    <!-- Script Section -->
     <script src="scripts/save_score.js"></script>
 </body>
 

@@ -1,3 +1,5 @@
+/* Reduce font size overall */
+
 :root {
     font-size: 62.5%;
 }
@@ -8,6 +10,10 @@
     padding: 0;
     margin: 0;
 }
+
+
+/* Set body background to a gradient based on emotionally relaxing colourscheme, 
+with transparency to prevent user distraction from quiz */
 
 body {
     background: rgba(253, 187, 45, 0.5);
@@ -20,6 +26,9 @@ body {
     background-position: center center;
     height: 100vh;
 }
+
+
+/* Default style settings */
 
 h1,
 h2,
@@ -52,7 +61,7 @@ h3 {
 }
 
 
-/* Alternative Formatting Heading Ones*/
+/* Alternative Formatting for Headings based on function */
 
 h1.bigtitle {
     font-size: 5rem;
@@ -73,6 +82,23 @@ h3.intro-text {
     text-align: center;
     padding-top: 3rem;
     padding-bottom: 2rem;
+}
+
+.h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 3rem!important;
+    padding-bottom: 2rem!important;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    text-align: center;
+    padding-top: 2rem;
 }
 
 
@@ -124,11 +150,6 @@ h3.intro-text {
     position: relative;
 }
 
-
-/*.container>* {
-    width: 100%;
-}*/
-
 .text-center {
     text-align: center;
 }
@@ -162,23 +183,6 @@ input.username {
     margin-bottom: 1rem;
     font-size: 1.2rem;
     align-items: center;
-}
-
-.h1 {
-    font-size: 4rem;
-    font-weight: 500;
-    margin-bottom: 3rem!important;
-    padding-bottom: 2rem!important;
-    text-align: center;
-    padding-top: 2rem;
-}
-
-.h2 {
-    font-size: 3rem;
-    font-weight: 500;
-    margin-bottom: 3rem;
-    text-align: center;
-    padding-top: 2rem;
 }
 
 .form-center {

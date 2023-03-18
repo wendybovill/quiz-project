@@ -1,3 +1,6 @@
+/* The topscores page css for score color, the list style and placement,
+hover effects and score wrapper to increase visibility from page background */
+
 #listTopScores {
     margin-bottom: 3rem;
     padding: 2rem;
@@ -33,11 +36,4 @@
 .score-wrapper {
     background: rgba(255, 255, 255, 0.368);
     border-radius: 25px;
-}
-
-ul.allplayers {
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
 }

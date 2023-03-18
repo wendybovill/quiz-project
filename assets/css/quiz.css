@@ -1,3 +1,5 @@
+/* The main quiz choice options */
+
 .option-container {
     display: flex;
     margin-bottom: 0.5rem;
@@ -34,6 +36,32 @@
     border-bottom-left-radius: 0;
 }
 
+#quiz-wrapper {
+    background: rgba(255, 255, 255, 0.368);
+    border-radius: 25px;
+    border: 0.5px solid rgb(138, 138, 138);
+    padding: 2rem;
+    margin-top: 10rem;
+    min-width: 150px;
+}
+
+
+/* The change of colours for the options depending on if they are correct
+or incorrect when clicked on */
+
+p.correct {
+    color: rgb(255, 255, 255);
+    background: rgba(0, 149, 0, 0.527);
+}
+
+p.incorrect {
+    color: rgb(255, 255, 255);
+    background-color: rgba(139, 0, 0, 0.428);
+}
+
+
+/* Standard text on the quiz page */
+
 p {
     /* need to override bootstrap */
     margin-top: 0!important;
@@ -41,6 +69,9 @@ p {
     border-top-left-radius: 4.48px;
     border-bottom-left-radius: 4.48px;
 }
+
+
+/* The Scores and Progress Bar for the quiz questions and quiz length */
 
 #hud {
     display: flex;
@@ -69,16 +100,6 @@ p {
     text-align: center;
 }
 
-p.correct {
-    color: rgb(255, 255, 255);
-    background: rgba(0, 149, 0, 0.527);
-}
-
-p.incorrect {
-    color: rgb(255, 255, 255);
-    background-color: rgba(139, 0, 0, 0.428);
-}
-
 #progressBar {
     width: 20rem;
     height: 4rem;
@@ -100,15 +121,6 @@ p.incorrect {
     align-content: left;
 }
 
-#quiz-wrapper {
-    background: rgba(255, 255, 255, 0.368);
-    border-radius: 25px;
-    border: 0.5px solid rgb(138, 138, 138);
-    padding: 2rem;
-    margin-top: 10rem;
-    min-width: 150px;
-}
-
 .hud-wrapper {
     background: rgba(255, 244, 158, 0.397);
     padding: 0.5rem;
@@ -127,7 +139,7 @@ p.incorrect {
 }
 
 
-/* the loader animation*/
+/* The loader animation */
 
 #loader {
     border: 1rem solid white;
