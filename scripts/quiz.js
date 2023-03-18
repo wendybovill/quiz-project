@@ -25,8 +25,6 @@ let availableQuestions = [];
 let questions = [{}, ];
 
 
-
-
 //fetch the custom made api of wellbeing quiz questions
 
 fetch('api.json')

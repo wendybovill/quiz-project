@@ -51,12 +51,28 @@ h3 {
     font-weight: 600;
 }
 
+
+/* Alternative Formatting Heading Ones*/
+
+h1.bigtitle {
+    font-size: 5rem;
+    color: darkgoldenrod;
+}
+
 h2.your-score {
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 3rem;
     text-align: center;
     align-items: center;
+}
+
+h3.intro-text {
+    font-size: 3rem;
+    color: darkgoldenrod;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
 
 

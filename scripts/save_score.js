@@ -20,7 +20,7 @@ saveTopScore = (e) => {
     e.preventDefault();
     const score = {
         score: latestScore,
-        user: username.value
+        user: username.value,
     };
 
     topScores.push(score);
