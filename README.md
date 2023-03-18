@@ -1,3 +1,3 @@
 
-Welcome to my quize for Project Milestone 2
+Welcome to my Wellbeing Quiz App for Project Milestone 2
 
