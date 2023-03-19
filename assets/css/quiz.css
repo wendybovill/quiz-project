@@ -161,7 +161,7 @@ p {
 
 /*=============== MEDIA QUERIES ==================*/
 
-@media (max-width: 350px) {
+@media screen and  (max-width: 350px) {
     /* Default style settings */
     .option-container {
         display: flex;

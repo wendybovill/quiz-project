@@ -292,7 +292,7 @@ footer {
 
 /*==============================================================*/
 
-@media (max-height: 670px) {
+@media screen and  (max-height: 670px) {
     /* Default style settings */
     html {
         height: 110%;
@@ -418,7 +418,7 @@ footer {
     }
 }
 
-@media (max-width: 500px) {
+@media screen and  (max-width: 500px) {
     html {
         height: 180%;
     }
@@ -476,7 +476,7 @@ footer {
     }
 }
 
-@media (max-width: 400px) {
+@media screen and  (max-width: 400px) {
     /* Default style settings */
     html {
         height: 250%;
@@ -610,7 +610,7 @@ footer {
 }
 }
 
-@media (max-width: 250px) {
+@media screen and  (max-width: 250px) {
     /* Default style settings */
     html {
         height: 200%;
