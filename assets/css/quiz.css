@@ -201,7 +201,7 @@ p {
         border: 0.5px solid rgb(138, 138, 138);
         padding: 1rem;
         margin-top: 1rem;
-        min-width: 200px;
+        min-width: 150px;
     }
     /* The change of colours for the options depending on if they are correct
 or incorrect when clicked on */
