@@ -36,6 +36,16 @@
     border-bottom-left-radius: 0;
 }
 
+.option-hover-reset{
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.4rem;
+    border: 1px solid rgb(44, 72, 73);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
 #quiz-wrapper {
     background: rgba(255, 255, 255, 0.368);
     border-radius: 25px;
