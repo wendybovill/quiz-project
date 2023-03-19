@@ -340,7 +340,7 @@ footer {
 @media (max-width: 350px) {
     /* Default style settings */
     html {
-        height: 100%;
+        height: 120%;
     }
     h2,
     h3,
@@ -450,7 +450,7 @@ footer {
 @media (max-width: 250px) {
     /* Default style settings */
     html {
-        height: 100%;
+        height: 120%;
     }
     h1,
     h2,
