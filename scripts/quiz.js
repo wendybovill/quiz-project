@@ -131,7 +131,7 @@ options.forEach((option) => {
 
         setTimeout(() => {
             selectedOption.classList.remove(classToApply);
-            hoverReset.childElement.classList.add('option-hover-reset');
+            hoverReset.classList.add("option-hover-reset");
             getNextQuestion();
         }, 1000);
     });
