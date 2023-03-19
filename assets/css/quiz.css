@@ -1,6 +1,6 @@
 /* The main quiz choice options */
 
-.option-container, .option-container:visited {
+.option-container {
     display: flex;
     margin-bottom: 0.5rem;
     width: 100%;
@@ -34,16 +34,6 @@
     background-color: rgba(12, 128, 132, 0.266);
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-}
-
-.option-hover-reset{
-    display: flex;
-    margin-bottom: 0.5rem;
-    width: 100%;
-    font-size: 1.4rem;
-    border: 1px solid rgb(44, 72, 73);
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
 }
 
 #quiz-wrapper {

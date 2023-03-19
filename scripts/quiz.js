@@ -16,7 +16,6 @@ const scoreInfo = document.getElementById('score');
 const progressFullBar = document.getElementById('progressFullBar');
 const quiz = document.getElementById('quiz');
 const loader = document.getElementById('loader');
-const hoverReset = document.getElementsByClassName('option-container');
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -108,7 +107,6 @@ getNextQuestion = () => {
     //Update the progress bar
     progressFullBar.style.width = `${(counter / MAX_QUESTIONS) * 100}%`;
 
-
 }
 
 startQuiz();
@@ -131,7 +129,6 @@ options.forEach((option) => {
 
         setTimeout(() => {
             selectedOption.classList.remove(classToApply);
-            hoverReset.classList.add("option-hover-reset");
             getNextQuestion();
         }, 1000);
     });
@@ -143,5 +140,3 @@ incrementScore = (num) => {
     score += num;
     scoreInfo.innerText = score;
 };
-
-//module.exports = { quiz };
