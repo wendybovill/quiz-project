@@ -1,6 +1,6 @@
 /* The main quiz choice options */
 
-.option-container {
+.option-container, .option-container:visited {
     display: flex;
     margin-bottom: 0.5rem;
     width: 100%;
