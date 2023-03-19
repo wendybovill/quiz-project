@@ -266,11 +266,11 @@ p.intro {
 
 footer {
     clear: both;
-    height: 25px;
+    height: 30px;
     padding: 5px 0 0 0;
     color: #335c68;
     font-weight: 300;
-    font-size: 0.8em;
+    font-size: 1.2rem;
     width: 100%;
     left: 0;
     position: absolute;
@@ -282,10 +282,13 @@ footer {
 }
 
 
-/*===============================*/
+/*==============================================================*/
 
 
 /* MEDIA QUERIES  */
+
+
+/*==============================================================*/
 
 @media (max-width: 500px) {
     div.quiz-logo {
@@ -315,6 +318,22 @@ footer {
         padding-bottom: 0;
         margin-bottom: 0;
         font-weight: 600;
+    }
+    footer {
+        clear: both;
+        height: 30px;
+        padding: 5px 0 0 0;
+        color: #335c68;
+        font-weight: 300;
+        font-size: 0.9rem;
+        width: 100%;
+        left: 0;
+        position: absolute;
+        bottom: 0;
+        display: block;
+        text-align: center;
+        overflow: hidden;
+        box-sizing: border-box;
     }
 }
 
