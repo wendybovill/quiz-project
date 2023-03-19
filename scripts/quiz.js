@@ -16,7 +16,7 @@ const scoreInfo = document.getElementById('score');
 const progressFullBar = document.getElementById('progressFullBar');
 const quiz = document.getElementById('quiz');
 const loader = document.getElementById('loader');
-const hoverReset = document.getElementsByClassName('option-text');
+const hoverReset = document.getElementsByClassName('option-container');
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -81,7 +81,7 @@ startQuiz = () => {
 
 // once all questions answered (length set by MAX_QUESTIONS), then save score to local storage and return to end.html
 getNextQuestion = () => {
-    hoverReset.classList.remove('option-hover-reset');
+
     if (availableQuestions.length === 0 || counter >= MAX_QUESTIONS) {
         localStorage.setItem('latestScore', score);
         return window.location.assign('end.html');
