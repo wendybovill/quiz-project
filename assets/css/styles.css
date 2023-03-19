@@ -290,10 +290,10 @@ footer {
 
 /*==============================================================*/
 
-@media (max-height: 650px) {
+@media (max-height: 670px) {
     /* Default style settings */
     html {
-        height: 120%;
+        height: 110%;
     }
     h2,
     h3,
@@ -450,7 +450,7 @@ footer {
 @media (max-width: 350px) {
     /* Default style settings */
     html {
-        height: 120%;
+        height: 200%;
     }
     h2,
     h3,
@@ -462,7 +462,7 @@ footer {
         color: rgb(0, 75, 78);
         margin-bottom: 2rem;
         text-align: center;
-        padding-top: 5rem!important;
+        padding-top: 1rem!important;
     }
     h1>span {
         font-size: 1.8rem;
@@ -560,7 +560,7 @@ footer {
 @media (max-width: 250px) {
     /* Default style settings */
     html {
-        height: 120%;
+        height: 200%;
     }
     h1,
     h2,
@@ -628,8 +628,8 @@ footer {
         text-decoration: none;
         color: rgb(236, 236, 236);
         background: rgb(11, 76, 79);
-        width: 25rem;
-        padding: 0.5rem;
+        width: 20rem;
+        padding: 0.9rem;
         margin-bottom: 0.5rem;
         border: 1px solid rgb(44, 72, 73);
         border-radius: 5px;
