@@ -707,7 +707,9 @@ footer {
         transform: none;
     }
 /* Hide footer in mobile browsers  */
-    footer {
-        display: none;
-    }
+footer {
+    display: none;
+    visibility: hidden;
+    scale:(0);
+}
 }
