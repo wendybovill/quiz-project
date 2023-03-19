@@ -441,6 +441,10 @@ footer {
         padding: 0.5rem;
         background: unset;
     }
+/* Hide footer in mobile browsers  */
+    footer {
+        display: none;
+    }
 }
 
 @media (max-width: 250px) {
@@ -535,5 +539,9 @@ footer {
         cursor: not-allowed;
         box-shadow: none;
         transform: none;
+    }
+/* Hide footer in mobile browsers  */
+    footer {
+        display: none;
     }
 }
