@@ -1,3 +1,10 @@
+/** 
+ * Author: Wendy Bovill
+ * Project Milestone 2 CI/WAES
+ * 
+ * This file contains the javascript to save the players score.
+ */
+
 /* Get username, the users final score,  save the score, and retrieve the latest scores */
 const username = document.getElementById('username');
 const saveScore = document.getElementById('saveScore');
@@ -34,6 +41,6 @@ saveTopScore = (e) => {
 
     /* Save topscores to local storage in a JSON string */
     localStorage.setItem('topScores', JSON.stringify(topScores));
-    window.location.assign('/');
+    window.location.assign('end.html'); //stay on end.html page after saving scores. player can choose what to do next
     alert('Your Score has been saved');
 };

@@ -1,5 +1,9 @@
 /** 
- * This file contains the functions for the topscores section of the quiz
+ * Author: Wendy Bovill
+ * Project Milestone 2 CI/WAES
+ * 
+ * This file contains the javascript for the topscore.
+ * 
  */
 
 //Either retrieve the topscores or an empty array

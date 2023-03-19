@@ -1,3 +1,10 @@
+/** 
+ * Author: Wendy Bovill
+ * Project Milestone 2 CI/WAES
+ * 
+ * This file contains the javascript to clear the local storage of ALL PLAYER SCORES.
+ */
+
 /* Get username, the users final score,  save the score, and retrieve the latest scores */
 const username = document.getElementById('username');
 const clearScore = document.getElementById('clearScore');

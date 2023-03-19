@@ -29,7 +29,7 @@ let questions = [{}, ];
 
 fetch('api.json')
 
-.then((res) => {
+.then((res) => { //return the result
         return res.json();
     })
     .then((loadedQuestions) => {
@@ -71,12 +71,14 @@ const MAX_QUESTIONS = 10;
 startQuiz = () => {
     counter = 0;
     score = 0;
-    availableQuestions = [...questions];
+    availableQuestions = [...questions]; //retrieve the rest of the questions
     getNextQuestion();
     quiz.classList.remove('hide');
     loader.classList.add('hide');
 };
 
+
+// once all questions answered (length set by MAX_QUESTIONS), then save score to local storage and return to end.html
 getNextQuestion = () => {
     if (availableQuestions.length === 0 || counter >= MAX_QUESTIONS) {
         localStorage.setItem('latestScore', score);
@@ -112,12 +114,12 @@ startQuiz();
 options.forEach((option) => {
 
     option.addEventListener('click', (e) => {
-        if (!acceptingAnswers) return;
+        if (!acceptingAnswers) return; //waiting for last action to complete and next quiz question to load
 
         acceptingAnswers = false;
         const selectedOption = e.target;
         const selectedAnswer = selectedOption.dataset['number'];
-
+        // set if answer to questions are correct or incorrect, increment the score and change the class for color background change
         var classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
         if (classToApply == 'correct') {
