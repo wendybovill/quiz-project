@@ -295,6 +295,15 @@ footer {
     html {
         height: 110%;
     }
+
+    div.logo {
+        text-align: center;
+        height: 80px;
+        width: 100%;
+        padding: 7;
+        margin: 0;
+    }
+
     h2,
     h3,
     h4 {
@@ -408,7 +417,7 @@ footer {
         text-align: center;
         height: 80px;
         width: 100%;
-        padding: 0;
+        padding: 7;
         margin: 0;
     }
     
@@ -464,11 +473,19 @@ footer {
         height: 200%;
     }
 
+    div.logo {
+        text-align: center;
+        height: 80px;
+        width: 100%;
+        padding: 7px;
+        margin: 0;
+    }
+
     div.quiz-logo {
         text-align: center;
         height: 80px;
         width: 100%;
-        padding: 0;
+        padding: 7px;
         margin: 0;
     }
 
@@ -585,11 +602,19 @@ footer {
         height: 200%;
     }
 
+    div.logo {
+        text-align: center;
+        height: 80px;
+        width: 100%;
+        padding: 5px;
+        margin: 0;
+    }
+
     div.quiz-logo {
         text-align: center;
         height: 80px;
         width: 100%;
-        padding: 0;
+        padding: 7px;
         margin: 0;
     }
 
