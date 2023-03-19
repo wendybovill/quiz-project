@@ -285,10 +285,120 @@ footer {
 /*==============================================================*/
 
 
-/* MEDIA QUERIES  */
+/* MEDIA QUERIES for mobile devices  */
 
 
 /*==============================================================*/
+
+@media (max-height: 650px) {
+    /* Default style settings */
+    html {
+        height: 120%;
+    }
+    h2,
+    h3,
+    h4 {
+        margin-bottom: 0;
+    }
+    h1 {
+        font-size: 2.3rem;
+        color: rgb(0, 75, 78);
+        margin-bottom: 2rem;
+        text-align: center;
+        padding-top: 5rem!important;
+    }
+    h1>span {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+    h2 {
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 1.8rem;
+    }
+    h3 {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+    /* Alternative Formatting for Headings based on function */
+    h1.bigtitle {
+        font-size: 3rem;
+        color: darkgoldenrod;
+    }
+    h2.your-score {
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-bottom: 3rem;
+        text-align: center;
+        align-items: center;
+    }
+    h3.intro-text {
+        font-size: 1.8rem;
+        color: darkgoldenrod;
+        text-align: center;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .h1 {
+        font-size: 2.2rem;
+        font-weight: 500;
+        margin-bottom: 1.5rem!important;
+        padding-bottom: 1.5rem!important;
+        text-align: center;
+        padding-top: 2rem;
+    }
+    .h2 {
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 1.5rem;
+        text-align: center;
+        padding-top: 1.5rem;
+    }
+    /* Style Interactive Elements on Page */
+    .button {
+        font-size: 1.2rem;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(236, 236, 236);
+        background: rgb(11, 76, 79);
+        width: 25rem;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        border: 1px solid rgb(44, 72, 73);
+        border-radius: 5px;
+    }
+    .button:hover {
+        cursor: pointer;
+        box-shadow: 0 0.2rem 1.2rem 0 rgba(44, 72, 73, 0.50);
+        transform: translateY(-0.1rem);
+        transition: transform 150ms;
+        color: rgb(14, 63, 65);
+        background: rgb(226, 226, 226);
+        border: 1px solid rgb(44, 72, 73);
+        border-radius: 5px;
+    }
+    .button[disabled],
+    .button[disabled]:hover {
+        cursor: not-allowed;
+        box-shadow: none;
+        transform: none;
+    }
+    div.container {
+        clear: both;
+        width: 100vw;
+        height: calc(100% -100px);
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0.5rem;
+        background: unset;
+    }
+/* Hide footer in mobile browsers  */
+    footer {
+        display: none;
+    }
+}
 
 @media (max-width: 500px) {
     div.quiz-logo {
