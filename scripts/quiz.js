@@ -16,7 +16,7 @@ const scoreInfo = document.getElementById('score');
 const progressFullBar = document.getElementById('progressFullBar');
 const quiz = document.getElementById('quiz');
 const loader = document.getElementById('loader');
-const hoverReset = document.getElementsByClassName('option-text');
+const hoverReset = document.getElementsByClassName('option-container');
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -131,7 +131,7 @@ options.forEach((option) => {
 
         setTimeout(() => {
             selectedOption.classList.remove(classToApply);
-            hoverReset.parentElement.classList.add('option-hover-reset');
+            hoverReset.childElement.classList.add('option-hover-reset');
             getNextQuestion();
         }, 1000);
     });
