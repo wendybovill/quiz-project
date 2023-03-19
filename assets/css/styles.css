@@ -397,6 +397,8 @@ footer {
 /* Hide footer in mobile browsers  */
     footer {
         display: none;
+        visibility: hidden;
+        scale:(0);
     }
 }
 
@@ -552,9 +554,11 @@ footer {
         background: unset;
     }
 /* Hide footer in mobile browsers  */
-    footer {
-        display: none;
-    }
+footer {
+    display: none;
+    visibility: hidden;
+    scale:(0);
+}
 }
 
 @media (max-width: 250px) {
