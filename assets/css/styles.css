@@ -94,7 +94,7 @@ h3.intro-text {
     margin-bottom: 3rem!important;
     padding-bottom: 2rem!important;
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 5rem;
 }
 
 .h2 {
@@ -297,7 +297,7 @@ footer {
         margin-bottom: 1.5rem!important;
         padding-bottom: 1.5rem!important;
         text-align: center;
-        padding-top: 5rem;
+        padding-top: 2rem;
     }
     .h2 {
         font-size: 2rem;
