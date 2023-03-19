@@ -80,7 +80,7 @@ startQuiz = () => {
 getNextQuestion = () => {
     if (availableQuestions.length === 0 || counter >= MAX_QUESTIONS) {
         localStorage.setItem('latestScore', score);
-        return window.location.assign('../end.html');
+        return window.location.assign('end.html');
     }
 
     //Selecting random questions from the question object array
