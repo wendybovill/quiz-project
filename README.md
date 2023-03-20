@@ -115,7 +115,7 @@ Throughout the development process, handwritten notes were made, serving as a 'T
 needs to be done and then ticked off when completed. These are available as photographs in notes.md
 
 Handwritten notes forming part of development and testing:
-[https://github.com/wendybovill/quiz-project/blob/6a68eb3716e65a02971d03ddc254c2ebde5e7cfb/documentation/handwritten_notes.md](https://github.com/wendybovill/quiz-project/blob/6a68eb3716e65a02971d03ddc254c2ebde5e7cfb/documentation/handwritten_notes.md)
+[https://github.com/wendybovill/quiz-project/blob/cf7fefcbdea1a41fa06a9813784a2cf11f4629cb/documentation/handwritten_notes.md](https://github.com/wendybovill/quiz-project/blob/cf7fefcbdea1a41fa06a9813784a2cf11f4629cb/documentation/handwritten_notes.md)
 	
 
 ## Site Design Process
@@ -222,8 +222,7 @@ Document of validation and errors can be viewed by clicking on the link below:
 
 
 Handwritten notes forming part of development and testing:
-[https://github.com/wendybovill/quiz-project/blob/1fefa18dae6171a7e9e3aefb4e5f9d0570cda9ae/documentation/handwritten_notes.md](https://github.com/wendybovill/quiz-project/blob/1fefa18dae6171a7e9e3aefb4e5f9d0570cda9ae/documentation/handwritten_notes.md)
-
+[https://github.com/wendybovill/quiz-project/blob/cf7fefcbdea1a41fa06a9813784a2cf11f4629cb/documentation/handwritten_notes.md](https://github.com/wendybovill/quiz-project/blob/cf7fefcbdea1a41fa06a9813784a2cf11f4629cb/documentation/handwritten_notes.md)
 
 *Refereces used to assist debugging:*
 
