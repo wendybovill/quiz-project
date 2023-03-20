@@ -43,10 +43,6 @@
 
 
 
-
-*Test Cases: [https://github.com/wendybovill/quiz-project/documentation/test_cases.md](https://github.com/wendybovill/quiz-project/blob/be353c4256537059e81980212c742fe49d273fec/documentation/test_cases.md)
-
-
 ## Technology Requirements:
 
 Html
@@ -119,7 +115,7 @@ Throughout the development process, handwritten notes were made, serving as a 'T
 needs to be done and then ticked off when completed. These are available as photographs in notes.md
 
 Handwritten notes forming part of development and testing:
-[https://github.com/wendybovill/milestone-project-one/blob/f3642747c1d664d42cfb915bf2aceeca4bc39549/documentation/notes.md](https://github.com/wendybovill/quiz-project/blob/1fefa18dae6171a7e9e3aefb4e5f9d0570cda9ae/documentation/handwritten_notes.md)
+[https://github.com/wendybovill/quiz-project/blob/1fefa18dae6171a7e9e3aefb4e5f9d0570cda9ae/documentation/handwritten_notes.md](https://github.com/wendybovill/quiz-project/blob/1fefa18dae6171a7e9e3aefb4e5f9d0570cda9ae/documentation/handwritten_notes.md)
 	
 
 *Site Information*
@@ -194,8 +190,6 @@ https://github.com/wendybovill/quiz-project/blob/b10e80529ddd6f52949056413579c37
 
 
 
-
-
 **SCREENSHOTS using DevTools for error fixing and troubleshooting:**
 
 
@@ -204,17 +198,13 @@ https://github.com/wendybovill/quiz-project/blob/b10e80529ddd6f52949056413579c37
 
 *Debugging:* 
 
-Using devtools in chrome and safari. Corrected misaligned boxes with bootstrap. Resized font and elements for desktop
-devices. Had to hide the footers from showing in very small devices, and as they took up too much space and overlapped
-with the quiz.
-
-CSS various sites used to assist in getting information on using a gradient as the background, using using unconventional positioning and resizing, which the validator complains of, but it works rather than not working without these parameters.
+Used DevTools and Selenium to test and debug.
 
 Document of validation and errors can be viewed by clicking on the link below:
-https://github.com/wendybovill/milestone-project-one/blob/8ba93d46f3bb4695df7b07fcc292d98d0c2f78b5/test_cases.md
+
 
 Handwritten notes forming part of development and testing:
-[https://github.com/wendybovill/milestone-project-one/blob/f3642747c1d664d42cfb915bf2aceeca4bc39549/documentation/notes.md](https://github.com/wendybovill/quiz-project/blob/1fefa18dae6171a7e9e3aefb4e5f9d0570cda9ae/documentation/handwritten_notes.md)
+[https://github.com/wendybovill/quiz-project/blob/1fefa18dae6171a7e9e3aefb4e5f9d0570cda9ae/documentation/handwritten_notes.md](https://github.com/wendybovill/quiz-project/blob/1fefa18dae6171a7e9e3aefb4e5f9d0570cda9ae/documentation/handwritten_notes.md)
 
 
 *Refereces used to assist debugging:*
