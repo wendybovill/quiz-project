@@ -141,7 +141,7 @@ Research generated custom questions and answers.
 	
 **Site Mockup with Adobe XD:**
 	
-	[https://github.com/wendybovill/quiz-project/blob/094d886b9de95ae66c4337ce72bfe9c0fd4b61fd/documentation/Site_Mockups.md](https://github.com/wendybovill/quiz-project/blob/094d886b9de95ae66c4337ce72bfe9c0fd4b61fd/documentation/Site_Mockups.md)
+[https://github.com/wendybovill/quiz-project/blob/094d886b9de95ae66c4337ce72bfe9c0fd4b61fd/documentation/Site_Mockups.md](https://github.com/wendybovill/quiz-project/blob/094d886b9de95ae66c4337ce72bfe9c0fd4b61fd/documentation/Site_Mockups.md)
 
 
 	*Logo:* Formito.com Free Favicon Maker
@@ -226,17 +226,17 @@ Handwritten notes forming part of development and testing:
 
 *Refereces used to assist debugging:*
 
-	- W3 schools html validator: http://validator.w3.org
+- W3 schools html validator: http://validator.w3.org
 
-	- W3 schools jigsaw css validator: http://jigsaw.w3.org
+- W3 schools jigsaw css validator: http://jigsaw.w3.org
 
-	- DevTools in Browser
+- DevTools in Browser
 
-	- Selenium IDE https://www.selenium.dev/selenium-ide/
+- Selenium IDE https://www.selenium.dev/selenium-ide/
 
-	- Regular commits were made throughout the process to github as deployed at onset using gitpod
+- Regular commits were made throughout the process to github as deployed at onset using gitpod
 
-	- Stackflow
+- Stackflow
 
 
 ## Screenshots of Index page from finished site - Desktop View
