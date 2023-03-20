@@ -135,9 +135,10 @@ Research generated custom questions and answers.
 
 **Wireframe with Balsamiq:**
 
-![Balsamiq Wireframe](https://github.com/wendybovill/quiz-project/blob/25c89b254e0e627b6ab8ee0defa3018db2489d03/documentation/Quiz%20on%20Desktop%20copy.png)
-![Balsamiq Wireframe 2](https://github.com/wendybovill/quiz-project/blob/25c89b254e0e627b6ab8ee0defa3018db2489d03/documentation/Quiz%20on%20Mobile.png)
-	
+| Desktop Mockup | Iphone Mockup |
+|----------------|---------------|
+| ![Balsamiq Wireframe](https://github.com/wendybovill/quiz-project/blob/25c89b254e0e627b6ab8ee0defa3018db2489d03/documentation/Quiz%20on%20Desktop%20copy.png)     |  ![Balsamiq Wireframe 2](https://github.com/wendybovill/quiz-project/blob/25c89b254e0e627b6ab8ee0defa3018db2489d03/documentation/Quiz%20on%20Mobile.png)     |
+
 	
 **Site Mockup with Adobe XD:**
 	
@@ -154,7 +155,7 @@ Research generated custom questions and answers.
 
 4. 	Development strategy: Develop the first page and styles, that then will be used as a template for the
 	rest of the site pages. Rough Javascript Plan which is then expanded on in the development process while
-  writing (and researching).
+    writing (and researching).
 
 
 ## Future Development:
