@@ -189,10 +189,13 @@ Wireframe with Balsamiq:
 
 **TEST CASES:**
 
+Test Cases:
+[https://github.com/wendybovill/quiz-project/blob/611efb10e5fa7bfac71ca1512dea808d7ea6a8a1/documentation/test_cases.md](https://github.com/wendybovill/quiz-project/blob/611efb10e5fa7bfac71ca1512dea808d7ea6a8a1/documentation/test_cases.md)
+
 Selenium IDE Automated Testing:
 [https://github.com/wendybovill/quiz-project/blob/b09ecb85aaec79205f4314ee57748bf0c68bc3ba/documentation/Selenium_Test.md](https://github.com/wendybovill/quiz-project/blob/27138fcb2b8b08dde29560c0f57279e0cfb998d8/documentation/Selenium_Test.md)
 
-WC3 Validation and Jigsaw:
+WC3 Validation and CSS Jigsaw:
 https://github.com/wendybovill/quiz-project/blob/27138fcb2b8b08dde29560c0f57279e0cfb998d8/documentation/wc3_validation_test1%20__wendybovill.github.io_quiz-project_%20-%20Nu%20Html%20Checker.pdf
 
 https://github.com/wendybovill/quiz-project/blob/11e8b650f4a0aa7b9b3e368848c4266e48e8ecca/documentation/W3C_CSS_Validator_test1_https%20__wendybovill.github.io_quiz-project_%20(CSS%20level%203%20+%20SVG).pdf
