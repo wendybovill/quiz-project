@@ -163,6 +163,7 @@ a.link:hover {
     margin-top: 20px;
 }
 
+
 /* logo */
 
 div.logo {
@@ -292,12 +293,11 @@ footer {
 
 /*==============================================================*/
 
-@media screen and  (max-height: 670px) {
+@media screen and (max-height: 670px) {
     /* Default style settings */
     html {
         height: 110%;
     }
-
     div.logo {
         text-align: center;
         height: 80px;
@@ -305,7 +305,6 @@ footer {
         padding: 7px;
         margin: 0;
     }
-
     h2,
     h3,
     h4 {
@@ -347,8 +346,8 @@ footer {
         font-size: 1.8rem;
         color: darkgoldenrod;
         text-align: center;
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
+        padding-top: 40px;
+        padding-bottom: 20px;
     }
     .h1 {
         font-size: 2.2rem;
@@ -394,11 +393,9 @@ footer {
         box-shadow: none;
         transform: none;
     }
-
     .quiz-button {
         margin: 30px 5px 5px 5px;
     }
-
     div.container {
         clear: both;
         width: 100vw;
@@ -410,19 +407,18 @@ footer {
         padding: 0.5rem;
         background: unset;
     }
-/* Hide footer in mobile browsers  */
+    /* Hide footer in mobile browsers  */
     footer {
         display: none;
         visibility: hidden;
-        scale:(0);
+        scale: (0);
     }
 }
 
-@media screen and  (max-width: 500px) {
+@media screen and (max-width: 500px) {
     html {
         height: 180%;
     }
-
     div.logo {
         text-align: center;
         height: 80px;
@@ -430,7 +426,6 @@ footer {
         padding: 7px;
         margin: 0;
     }
-    
     div.quiz-logo {
         text-align: center;
         height: 80px;
@@ -476,12 +471,11 @@ footer {
     }
 }
 
-@media screen and  (max-width: 400px) {
+@media screen and (max-width: 400px) {
     /* Default style settings */
     html {
         height: 250%;
     }
-
     div.logo {
         text-align: center;
         height: 80px;
@@ -489,15 +483,12 @@ footer {
         padding: 7px;
         margin: 0;
     }
-
     div.quiz-logo {
         text-align: center;
         height: 80px;
         width: 100%;
-
         margin: 0;
     }
-
     h2,
     h3,
     h4 {
@@ -539,8 +530,8 @@ footer {
         font-size: 1.8rem;
         color: darkgoldenrod;
         text-align: center;
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
+        padding-top: 40px;
+        padding-bottom: 20px;
     }
     .h1 {
         font-size: 2.2rem;
@@ -586,11 +577,9 @@ footer {
         box-shadow: none;
         transform: none;
     }
-
     a.quiz-button {
         margin: 10px 5px 5px 5px;
     }
-
     div.container {
         clear: both;
         width: 100vw;
@@ -602,20 +591,19 @@ footer {
         padding: 0.5rem;
         background: unset;
     }
-/* Hide footer in mobile browsers  */
-footer {
-    display: none;
-    visibility: hidden;
-    scale:(0);
-}
+    /* Hide footer in mobile browsers  */
+    footer {
+        display: none;
+        visibility: hidden;
+        scale: (0);
+    }
 }
 
-@media screen and  (max-width: 250px) {
+@media screen and (max-width: 250px) {
     /* Default style settings */
     html {
         height: 200%;
     }
-
     div.logo {
         text-align: center;
         height: 80px;
@@ -623,7 +611,6 @@ footer {
         padding: 5px;
         margin: 0;
     }
-
     div.quiz-logo {
         text-align: center;
         height: 80px;
@@ -631,7 +618,6 @@ footer {
         padding: 7px;
         margin: 0;
     }
-
     h1,
     h2,
     h3,
@@ -673,8 +659,8 @@ footer {
         font-size: 1.8rem;
         color: darkgoldenrod;
         text-align: center;
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
+        padding-top: 30px;
+        padding-bottom: 20px;
     }
     .h1 {
         font-size: 2.1rem;
@@ -720,15 +706,13 @@ footer {
         box-shadow: none;
         transform: none;
     }
-
     a.quiz-button {
         margin: 10px 5px 5px 5px;
     }
-
-/* Hide footer in mobile browsers  */
-footer {
-    display: none;
-    visibility: hidden;
-    scale:(0);
-}
+    /* Hide footer in mobile browsers  */
+    footer {
+        display: none;
+        visibility: hidden;
+        scale: (0);
+    }
 }
