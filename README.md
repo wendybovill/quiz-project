@@ -44,7 +44,7 @@
 
 
 
-*Test Cases: https://github.com/wendybovill/milestone-project-one/blob/8ba93d46f3bb4695df7b07fcc292d98d0c2f78b5/test_cases.md
+*Test Cases: https://github.com/wendybovill/quiz-project/documentation/test_cases.md
 
 
 ## Technology Requirements:
