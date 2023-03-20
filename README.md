@@ -115,7 +115,7 @@ Throughout the development process, handwritten notes were made, serving as a 'T
 needs to be done and then ticked off when completed. These are available as photographs in notes.md
 
 Handwritten notes forming part of development and testing:
-[https://github.com/wendybovill/quiz-project/blob/6a68eb3716e65a02971d03ddc254c2ebde5e7cfb/documentation/handwritten_notes.md](https://github.com/wendybovill/quiz-project/blob/6a68eb3716e65a02971d03ddc254c2ebde5e7cfb/documentation/handwritten_notes.md)]
+[https://github.com/wendybovill/quiz-project/blob/6a68eb3716e65a02971d03ddc254c2ebde5e7cfb/documentation/handwritten_notes.md](https://github.com/wendybovill/quiz-project/blob/6a68eb3716e65a02971d03ddc254c2ebde5e7cfb/documentation/handwritten_notes.md)
 	
 
 ## Site Design Process
@@ -170,13 +170,13 @@ Research generated custom questions and answers.
 
 - Stackflow for help with Javascript and CSS where required,where information was read and then
   interpreted and applied to the requirements of the site and functions required for the actions
-  necessary:
-	  - To plan out what functions to use and streamline them rather than bulky functions.
-	  - Further information on shortening functions and syntax used.
-	  - Information on how to write to the local storage.
-	  - Information on editing the api to create one for the questions and answer content.
-	  - Information in adding and removing classes.
-	  - Information in switching question and answers and indicating which ones are correct or not.
+  necessary:<br>
+	  - To plan out what functions to use and streamline them rather than bulky functions.<br>
+	  - Further information on shortening functions and syntax used.<br>
+	  - Information on how to write to the local storage.<br>
+	  - Information on editing the api to create one for the questions and answer content.<br>
+	  - Information in adding and removing classes.<br>
+	  - Information in switching question and answers and indicating which ones are correct or not.<br>
 
 - Markdown table generator used: https://www.tablesgenerator.com/markdown_tables
 
@@ -193,7 +193,7 @@ Test Cases:
 [https://github.com/wendybovill/quiz-project/blob/611efb10e5fa7bfac71ca1512dea808d7ea6a8a1/documentation/test_cases.md](https://github.com/wendybovill/quiz-project/blob/611efb10e5fa7bfac71ca1512dea808d7ea6a8a1/documentation/test_cases.md)
 
 Selenium IDE Automated Testing:
-[https://github.com/wendybovill/quiz-project/blob/b09ecb85aaec79205f4314ee57748bf0c68bc3ba/documentation/Selenium_Test.md](https://github.com/wendybovill/quiz-project/blob/27138fcb2b8b08dde29560c0f57279e0cfb998d8/documentation/Selenium_Test.md)
+[https://github.com/wendybovill/quiz-project/blob/875c4591ab00e6ab49918cd45e2e4f2bd67ed2c4/documentation/Selenium_Test.md](https://github.com/wendybovill/quiz-project/blob/875c4591ab00e6ab49918cd45e2e4f2bd67ed2c4/documentation/Selenium_Test.md)
 
 WC3 Validation and CSS Jigsaw:
 https://github.com/wendybovill/quiz-project/blob/27138fcb2b8b08dde29560c0f57279e0cfb998d8/documentation/wc3_validation_test1%20__wendybovill.github.io_quiz-project_%20-%20Nu%20Html%20Checker.pdf

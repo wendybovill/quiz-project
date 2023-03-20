@@ -1,9 +1,9 @@
 
 **Selenium IDE Testing**
 
-===================================================================
-TEST ONE
-===================================================================
+================================
+            TEST ONE
+================================
 Running 'Site Functionality' 16:49:15
 1.open on /quiz-project/ OK16:49:15
 2.setWindowSize on 1096x941 OK16:49:17
@@ -67,9 +67,9 @@ Running 'Site Functionality' 16:49:15
 
 
 
-===================================================================
-TEST TWO
-===================================================================
+============================
+          TEST TWO
+============================
 19/03/2023, 14:44 Selenium IDE - wellbeing-quiz
 chrome-extension://mooikfkahbdckldjjndioackbalphokd/index.html# 1/1
 Running 'Browser functionality' 14:35:08
