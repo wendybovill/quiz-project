@@ -245,7 +245,7 @@ Handwritten notes forming part of development and testing:
 |-----------------------------------------------------------------------|
 | ![Finished Site Desktop Index Page](https://github.com/wendybovill/quiz-project/blob/11e8b650f4a0aa7b9b3e368848c4266e48e8ecca/documentation/Wellbeing_Site.png)|
 | Screenshot showing second part of Index Page Finished Site Desktop View  |
-| [Finished Site MD File showing all screenshots](https://github.com/wendybovill/quiz-project/blob/15c9a9496ad8b7691a7cd005b5b8162ca2ce3179/documentation/Finished_Site_Screenshots.md)|
+| [Finished Site MD File showing all screenshots https://github.com/wendybovill/quiz-project/blob/15c9a9496ad8b7691a7cd005b5b8162ca2ce3179/documentation/Finished_Site_Screenshots.md](https://github.com/wendybovill/quiz-project/blob/15c9a9496ad8b7691a7cd005b5b8162ca2ce3179/documentation/Finished_Site_Screenshots.md)|
 
 
 
