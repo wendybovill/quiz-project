@@ -189,9 +189,21 @@ https://github.com/wendybovill/quiz-project/blob/b10e80529ddd6f52949056413579c37
 **TEST CASES:**
 
 Selenium IDE Automated Testing:
-https://github.com/wendybovill/quiz-project/blob/b09ecb85aaec79205f4314ee57748bf0c68bc3ba/documentation/Selenium_IDE_wellbeing-quiz.pdf
+[https://github.com/wendybovill/quiz-project/blob/b09ecb85aaec79205f4314ee57748bf0c68bc3ba/documentation/Selenium_IDE_wellbeing-quiz.pdf](https://github.com/wendybovill/quiz-project/blob/27138fcb2b8b08dde29560c0f57279e0cfb998d8/documentation/Selenium_Test)
+
+WC3 Validation and Jigsaw:
+https://github.com/wendybovill/quiz-project/blob/27138fcb2b8b08dde29560c0f57279e0cfb998d8/documentation/wc3_validation_test1%20__wendybovill.github.io_quiz-project_%20-%20Nu%20Html%20Checker.pdf
+
+https://github.com/wendybovill/quiz-project/blob/11e8b650f4a0aa7b9b3e368848c4266e48e8ecca/documentation/W3C_CSS_Validator_test1_https%20__wendybovill.github.io_quiz-project_%20(CSS%20level%203%20+%20SVG).pdf
+
+
 
 **SCREENSHOTS using DevTools for error fixing and troubleshooting:**
+
+[![Testing Local Storage Save](https://github.com/wendybovill/quiz-project/blob/27138fcb2b8b08dde29560c0f57279e0cfb998d8/documentation/Screenshot%202023-03-20%20at%2009.02.28.png)
+
+Pdf showing testing screenshots:
+https://github.com/wendybovill/quiz-project/blob/11e8b650f4a0aa7b9b3e368848c4266e48e8ecca/documentation/Testing_screenshots.pdf
 
 
 
@@ -227,7 +239,7 @@ Handwritten notes forming part of development and testing:
 
 | Screenshot showing first part of Index Page Finished Site |
 |-----------------------------------------------------------------------|
-| ![Finished Site Page Part 1](https://github.com/wendybovill/milestone-project-one/blob/cf589814f144ad82fd843557ceed19e68b7346e7/documentation/site1.png)|
+| ![Finished Site Desktop Index Page](https://github.com/wendybovill/quiz-project/blob/11e8b650f4a0aa7b9b3e368848c4266e48e8ecca/documentation/Wellbeing_Site.png)|
 | Screenshot showing second part of Index Page Finished Site Desktop View  |
 | ![Finished Site Index Page Part 2](https://github.com/wendybovill/milestone-project-one/blob/cf589814f144ad82fd843557ceed19e68b7346e7/documentation/site2.png)|
 | Screenshot showing third part of Index Page Finished Site Desktop View  |
