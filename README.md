@@ -168,14 +168,15 @@ https://github.com/wendybovill/quiz-project/blob/b10e80529ddd6f52949056413579c37
 
 # Acknowledgements
 
-- Javascript from Stackflow where information was read and then interpreted and applied to the requirements
-  of the site and functions required for the actions necessary:
-  - To plan out what functions to use and streamline them rather than bulky functions.
-  - Further information on shortening functions and syntax used.
-  - Information on how to write to the local storage.
-  - Information on editing the api to create one for the questions and answer content.
-  - Information in adding and removing classes.
-  - Information in switching question and answers and indicating which ones are correct or not.
+- Stackflow for help with Javascript and CSS where required,where information was read and then
+  interpreted and applied to the requirements of the site and functions required for the actions
+  necessary:
+	  - To plan out what functions to use and streamline them rather than bulky functions.
+	  - Further information on shortening functions and syntax used.
+	  - Information on how to write to the local storage.
+	  - Information on editing the api to create one for the questions and answer content.
+	  - Information in adding and removing classes.
+	  - Information in switching question and answers and indicating which ones are correct or not.
 
 - Markdown table generator used: https://www.tablesgenerator.com/markdown_tables
 
@@ -222,17 +223,17 @@ Handwritten notes forming part of development and testing:
 
 *Refereces used to assist debugging:*
 
-- W3 schools html validator: http://validator.w3.org
+	- W3 schools html validator: http://validator.w3.org
 
-- W3 schools jigsaw css validator: http://jigsaw.w3.org
+	- W3 schools jigsaw css validator: http://jigsaw.w3.org
 
-- DevTools in Browser
+	- DevTools in Browser
 
-- Selenium IDE
+	- Selenium IDE https://www.selenium.dev/selenium-ide/
 
-- Regular commits were made throughout the process to github as deployed at onset using gitpod
+	- Regular commits were made throughout the process to github as deployed at onset using gitpod
 
-- Stackflow
+	- Stackflow
 
 
 ## Screenshots of Index page from finished site - Desktop View
