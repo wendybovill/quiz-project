@@ -118,7 +118,7 @@ Handwritten notes forming part of development and testing:
 [https://github.com/wendybovill/quiz-project/blob/6a68eb3716e65a02971d03ddc254c2ebde5e7cfb/documentation/handwritten_notes.md](https://github.com/wendybovill/quiz-project/blob/6a68eb3716e65a02971d03ddc254c2ebde5e7cfb/documentation/handwritten_notes.md)]
 	
 
-##Site Design Process
+## Site Design Process
 
 1. Content:
 
