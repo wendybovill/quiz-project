@@ -145,9 +145,7 @@ Wireframe with Balsamiq:
 	
 	Site Mockup with Adobe XD:
 	
-| Desktop Mockup | Ipad Mockup | Iphone Mockup |
-|----------------|-------------|---------------|
-| ![Desktop Mockup Page 1](https://github.com/wendybovill/milestone-project-one/blob/404aaf37ed6db2fb644e96c986394d316dab8849/documentation/Upload_20230116-1530431024_1.jpg)      | ![Ipad Mockup Page 1](https://github.com/wendybovill/milestone-project-one/blob/404aaf37ed6db2fb644e96c986394d316dab8849/documentation/Upload_20230116-1530431024_6.jpg)   | ![Iphone Mockup Page 1](https://github.com/wendybovill/milestone-project-one/blob/404aaf37ed6db2fb644e96c986394d316dab8849/documentation/Upload_20230116-1530431024_11.jpg)     |
+https://github.com/wendybovill/quiz-project/blob/b10e80529ddd6f52949056413579c3713e05a5cc/documentation/Site_Mockups.pdf
 
 
 	*Logo:* Formito.com Free Favicon Maker
