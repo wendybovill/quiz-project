@@ -119,7 +119,7 @@ Throughout the development process, handwritten notes were made, serving as a 'T
 needs to be done and then ticked off when completed. These are available as photographs in notes.md
 
 Handwritten notes forming part of development and testing:
-https://github.com/wendybovill/milestone-project-one/blob/f3642747c1d664d42cfb915bf2aceeca4bc39549/documentation/notes.md
+[https://github.com/wendybovill/milestone-project-one/blob/f3642747c1d664d42cfb915bf2aceeca4bc39549/documentation/notes.md](https://github.com/wendybovill/quiz-project/blob/1fefa18dae6171a7e9e3aefb4e5f9d0570cda9ae/documentation/handwritten_notes.md)
 	
 
 *Site Information*
@@ -192,13 +192,13 @@ https://github.com/wendybovill/quiz-project/blob/b10e80529ddd6f52949056413579c37
 
 **TEST CASES:**
 
-https://github.com/wendybovill/milestone-project-one/blob/8ba93d46f3bb4695df7b07fcc292d98d0c2f78b5/test_cases.md
+
 
 
 
 **SCREENSHOTS using DevTools for error fixing and troubleshooting:**
 
-https://github.com/wendybovill/milestone-project-one/blob/5f8720fa9fab58b3fe3f47c998bce31c660808d5/devtools_debugging.md
+
 
 
 
@@ -214,7 +214,7 @@ Document of validation and errors can be viewed by clicking on the link below:
 https://github.com/wendybovill/milestone-project-one/blob/8ba93d46f3bb4695df7b07fcc292d98d0c2f78b5/test_cases.md
 
 Handwritten notes forming part of development and testing:
-https://github.com/wendybovill/milestone-project-one/blob/f3642747c1d664d42cfb915bf2aceeca4bc39549/documentation/notes.md
+[https://github.com/wendybovill/milestone-project-one/blob/f3642747c1d664d42cfb915bf2aceeca4bc39549/documentation/notes.md](https://github.com/wendybovill/quiz-project/blob/1fefa18dae6171a7e9e3aefb4e5f9d0570cda9ae/documentation/handwritten_notes.md)
 
 
 *Refereces used to assist debugging:*
