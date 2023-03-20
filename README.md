@@ -218,6 +218,7 @@ https://github.com/wendybovill/quiz-project/blob/11e8b650f4a0aa7b9b3e368848c4266
 Used DevTools and Selenium to test and debug.
 
 Document of validation and errors can be viewed by clicking on the link below:
+[https://github.com/wendybovill/quiz-project/blob/98e080036d42f47f308b1d234971b83938c763d3/documentation/Validator_tests.md](https://github.com/wendybovill/quiz-project/blob/98e080036d42f47f308b1d234971b83938c763d3/documentation/Validator_tests.md)
 
 
 Handwritten notes forming part of development and testing:
