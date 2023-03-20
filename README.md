@@ -190,7 +190,7 @@ Wireframe with Balsamiq:
 **TEST CASES:**
 
 Selenium IDE Automated Testing:
-[https://github.com/wendybovill/quiz-project/blob/b09ecb85aaec79205f4314ee57748bf0c68bc3ba/documentation/Selenium_IDE_wellbeing-quiz.pdf](https://github.com/wendybovill/quiz-project/blob/27138fcb2b8b08dde29560c0f57279e0cfb998d8/documentation/Selenium_Test)
+[https://github.com/wendybovill/quiz-project/blob/b09ecb85aaec79205f4314ee57748bf0c68bc3ba/documentation/Selenium_Test.md](https://github.com/wendybovill/quiz-project/blob/27138fcb2b8b08dde29560c0f57279e0cfb998d8/documentation/Selenium_Test.md)
 
 WC3 Validation and Jigsaw:
 https://github.com/wendybovill/quiz-project/blob/27138fcb2b8b08dde29560c0f57279e0cfb998d8/documentation/wc3_validation_test1%20__wendybovill.github.io_quiz-project_%20-%20Nu%20Html%20Checker.pdf
@@ -242,7 +242,7 @@ Handwritten notes forming part of development and testing:
 |-----------------------------------------------------------------------|
 | ![Finished Site Desktop Index Page](https://github.com/wendybovill/quiz-project/blob/11e8b650f4a0aa7b9b3e368848c4266e48e8ecca/documentation/Wellbeing_Site.png)|
 | Screenshot showing second part of Index Page Finished Site Desktop View  |
-| ![Finished Site MD File showing all screenshots](https://github.com/wendybovill/quiz-project/blob/15c9a9496ad8b7691a7cd005b5b8162ca2ce3179/documentation/Finished_Site_Screenshots.md)|
+| [Finished Site MD File showing all screenshots](https://github.com/wendybovill/quiz-project/blob/15c9a9496ad8b7691a7cd005b5b8162ca2ce3179/documentation/Finished_Site_Screenshots.md)|
 
 
 
