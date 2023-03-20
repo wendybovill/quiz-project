@@ -1,6 +1,6 @@
 
 
-====================Html Validator======================
+=========Html Validator========
 
 Html Validator found 1 html error, since correctd. The Warning note was in reference to element to be populated by Javascript.
 
@@ -41,7 +41,7 @@ About this checker • Report an issue • Version: 23.3.5
 
 
 
-====================CSS Jigsaw Validator======================
+==========CSS Jigsaw Validator========
 
 There are a number of parsing errors which has since been corrected. 
 My syntax was being broken up by additinal spaces added by an extension.
