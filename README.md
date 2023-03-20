@@ -141,7 +141,7 @@ Wireframe with Balsamiq:
 	
 	Site Mockup with Adobe XD:
 	
-[MD Site Mockup File](https://github.com/wendybovill/quiz-project/blob/094d886b9de95ae66c4337ce72bfe9c0fd4b61fd/documentation/Site_Mockups.md)
+[https://github.com/wendybovill/quiz-project/blob/094d886b9de95ae66c4337ce72bfe9c0fd4b61fd/documentation/Site_Mockups.md](https://github.com/wendybovill/quiz-project/blob/094d886b9de95ae66c4337ce72bfe9c0fd4b61fd/documentation/Site_Mockups.md)
 
 
 	*Logo:* Formito.com Free Favicon Maker
