@@ -4,66 +4,66 @@
 
 TEST ONE
 ========
-Running 'Site Functionality' 16:49:15
-1.open on /quiz-project/ OK16:49:15
-2.setWindowSize on 1096x941 OK16:49:17
-3.click on linkText=Start Quiz OK16:49:18
-4.click on css=.option-container:nth-child(4) > .option-text OK16:49:20
-5.click on css=.option-container:nth-child(2) > .option-text OK16:49:21
-6.click on css=.option-container:nth-child(4) > .option-text OK16:49:23
-7.click on css=.option-container:nth-child(4) > .option-text OK16:49:24
-8.click on css=.option-container:nth-child(5) > .option-text OK16:49:25
-9.click on css=.option-container:nth-child(5) > .option-text OK16:49:27
-10.click on css=.option-container:nth-child(5) > .option-text OK16:49:28
-11.click on css=.option-container:nth-child(4) > .option-text OK16:49:30
-12.click on css=.option-container:nth-child(3) > .option-text OK16:49:31
-13.click on css=.option-container:nth-child(4) > .option-text OK16:49:33
-14.click on id=username OK16:49:34
-15.type on id=username with value Tina OK16:49:36
-16.click on id=saveScore OK16:49:37
-17.click on linkText=View Top Scores OK16:49:39
-18.click on linkText=Home OK16:49:40
+Running 'Site Functionality' 16:49:15<br>
+1.open on /quiz-project/ OK16:49:15<br>
+2.setWindowSize on 1096x941 OK16:49:17<br>
+3.click on linkText=Start Quiz OK16:49:18<br>
+4.click on css=.option-container:nth-child(4) > .option-text OK16:49:20<br>
+5.click on css=.option-container:nth-child(2) > .option-text OK16:49:21<br>
+6.click on css=.option-container:nth-child(4) > .option-text OK16:49:23<br>
+7.click on css=.option-container:nth-child(4) > .option-text OK16:49:24<br>
+8.click on css=.option-container:nth-child(5) > .option-text OK16:49:25<br>
+9.click on css=.option-container:nth-child(5) > .option-text OK16:49:27<br>
+10.click on css=.option-container:nth-child(5) > .option-text OK16:49:28<br>
+11.click on css=.option-container:nth-child(4) > .option-text OK16:49:30<br>
+12.click on css=.option-container:nth-child(3) > .option-text OK16:49:31<br>
+13.click on css=.option-container:nth-child(4) > .option-text OK16:49:33<br>
+14.click on id=username OK16:49:34<br>
+15.type on id=username with value Tina OK16:49:36<br>
+16.click on id=saveScore OK16:49:37<br>
+17.click on linkText=View Top Scores OK16:49:39<br>
+18.click on linkText=Home OK16:49:40<br>
 19.click on linkText=Top Scores OK16:49:42
-20.click on css=.quiz-logo:nth-child(1) OK16:49:43
-21.click on linkText=Top Scores OK16:49:45
-22.click on linkText=Clear All scores OK16:49:46
-23.chooseOkOnNextConfirmation OK16:49:48
-24.click on id=clearScore OK16:49:50
-25.assertConfirmation on Are you sure you want to delete ALL player scores? OK16:49:51
-26.webdriverChooseOkOnVisibleConfirmation OK16:49:53
-27.assertAlert on All player scores have been removed OK16:49:54
-28.chooseCancelOnNextConfirmation OK16:49:56
-29.click on id=clearScore OK16:49:58
-30.assertConfirmation on Are you sure you want to delete ALL player scores? OK16:50:00
-31.webdriverChooseCancelOnVisibleConfirmation OK16:50:02
-32.assertAlert on The scores have not been cleared. OK16:50:03
-33.click on linkText=Start Again OK16:50:05
-34.click on css=.option-container:nth-child(2) > .option-text OK16:50:07
-35.click on css=.option-container:nth-child(4) > .option-text OK16:50:08
-36.click on css=.option-container:nth-child(3) > .option-text OK16:50:09
-37.click on css=.option-container:nth-child(4) > .option-text OK16:50:11
-38.click on css=.option-container:nth-child(3) > .option-text OK16:50:12
-39.click on css=.option-container:nth-child(4) > .option-text OK16:50:14
-40.click on css=.option-container:nth-child(3) > .option-text OK16:50:15
-41.click on css=.option-container:nth-child(3) > .option-text OK16:50:17
-42.click on css=.option-container:nth-child(5) > .option-text OK16:50:18
-43.click on css=.option-container:nth-child(2) > .option-text OK16:50:20
-44.click on id=username OK16:50:21
-45.type on id=username with value Martin OK16:50:22
-46.click on id=saveScore OK16:50:24
-47.click on linkText=Restart Wellbeing Quiz OK16:50:25
-48.click on linkText=Quit Quiz OK16:50:27
-49.click on linkText=Top Scores OK16:50:28
-50.click on linkText=Clear All scores OK16:50:30
-51.chooseCancelOnNextConfirmation OK16:50:31
-52.click on id=clearScore OK16:50:33
-53.assertConfirmation on Are you sure you want to delete ALL player scores? OK16:50:35
-54.webdriverChooseCancelOnVisibleConfirmation OK16:50:37
-55.assertAlert on The scores have not been cleared. OK16:50:38
-56.click on id=end OK16:50:40
-57.click on linkText=Go Home OK16:50:42
-'Site Functionality' completed successfully 16:50:42
-
+20.click on css=.quiz-logo:nth-child(1) OK16:49:43<br>
+21.click on linkText=Top Scores OK16:49:45<br>
+22.click on linkText=Clear All scores OK16:49:46<br>
+23.chooseOkOnNextConfirmation OK16:49:48<br>
+24.click on id=clearScore OK16:49:50<br>
+25.assertConfirmation on Are you sure you want to delete ALL player scores? OK16:49:51<br>
+26.webdriverChooseOkOnVisibleConfirmation OK16:49:53<br>
+27.assertAlert on All player scores have been removed OK16:49:54<br>
+28.chooseCancelOnNextConfirmation OK16:49:56<br>
+29.click on id=clearScore OK16:49:58<br>
+30.assertConfirmation on Are you sure you want to delete ALL player scores? OK16:50:00<br>
+31.webdriverChooseCancelOnVisibleConfirmation OK16:50:02<br>
+32.assertAlert on The scores have not been cleared. OK16:50:03<br>
+33.click on linkText=Start Again OK16:50:05<br>
+34.click on css=.option-container:nth-child(2) > .option-text OK16:50:07<br>
+35.click on css=.option-container:nth-child(4) > .option-text OK16:50:08<br>
+36.click on css=.option-container:nth-child(3) > .option-text OK16:50:09<br>
+37.click on css=.option-container:nth-child(4) > .option-text OK16:50:11<br>
+38.click on css=.option-container:nth-child(3) > .option-text OK16:50:12<br>
+39.click on css=.option-container:nth-child(4) > .option-text OK16:50:14<br>
+40.click on css=.option-container:nth-child(3) > .option-text OK16:50:15<br>
+41.click on css=.option-container:nth-child(3) > .option-text OK16:50:17<br>
+42.click on css=.option-container:nth-child(5) > .option-text OK16:50:18<br>
+43.click on css=.option-container:nth-child(2) > .option-text OK16:50:20<br>
+44.click on id=username OK16:50:21<br>
+45.type on id=username with value Martin OK16:50:22<br>
+46.click on id=saveScore OK16:50:24<br>
+47.click on linkText=Restart Wellbeing Quiz OK16:50:25<br>
+48.click on linkText=Quit Quiz OK16:50:27<br>
+49.click on linkText=Top Scores OK16:50:28<br>
+50.click on linkText=Clear All scores OK16:50:30<br>
+51.chooseCancelOnNextConfirmation OK16:50:31<br>
+52.click on id=clearScore OK16:50:33<br>
+53.assertConfirmation on Are you sure you want to delete ALL player scores? OK16:50:35<br>
+54.webdriverChooseCancelOnVisibleConfirmation OK16:50:37<br>
+55.assertAlert on The scores have not been cleared. OK16:50:38<br>
+56.click on id=end OK16:50:40<br>
+57.click on linkText=Go Home OK16:50:42<br>
+'Site Functionality' completed successfully 16:50:42<br>
+<br>
 
 
 
