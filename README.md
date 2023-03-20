@@ -139,8 +139,8 @@ https://github.com/wendybovill/quiz-project/blob/8c172943d24ad70354edf92f787997a
 
 Wireframe with Balsamiq:
 
-[![Balsamiq Wireframe](https://github.com/wendybovill/quiz-project/blob/25c89b254e0e627b6ab8ee0defa3018db2489d03/documentation/Quiz%20on%20Desktop%20copy.png)]
-[![Balsamiq Wireframe 2](https://github.com/wendybovill/quiz-project/blob/25c89b254e0e627b6ab8ee0defa3018db2489d03/documentation/Quiz%20on%20Mobile.png)]
+[![Balsamiq Wireframe](https://github.com/wendybovill/quiz-project/blob/25c89b254e0e627b6ab8ee0defa3018db2489d03/documentation/Quiz%20on%20Desktop%20copy.png)
+[![Balsamiq Wireframe 2](https://github.com/wendybovill/quiz-project/blob/25c89b254e0e627b6ab8ee0defa3018db2489d03/documentation/Quiz%20on%20Mobile.png)
 	
 	
 	Site Mockup with Adobe XD:
