@@ -115,7 +115,7 @@ Throughout the development process, handwritten notes were made, serving as a 'T
 needs to be done and then ticked off when completed. These are available as photographs in notes.md
 
 Handwritten notes forming part of development and testing:
-[https://github.com/wendybovill/quiz-project/blob/1fefa18dae6171a7e9e3aefb4e5f9d0570cda9ae/documentation/handwritten_notes.md](https://github.com/wendybovill/quiz-project/blob/1fefa18dae6171a7e9e3aefb4e5f9d0570cda9ae/documentation/handwritten_notes.md)
+[https://github.com/wendybovill/quiz-project/blob/6a68eb3716e65a02971d03ddc254c2ebde5e7cfb/documentation/handwritten_notes.md](https://github.com/wendybovill/quiz-project/blob/6a68eb3716e65a02971d03ddc254c2ebde5e7cfb/documentation/handwritten_notes.md)]
 	
 
 *Site Information*
@@ -129,7 +129,7 @@ Research generated custom questions and answers.
 
 *Site Specification and Website Flow:* Documentation for Website Planning. 
 
-https://github.com/wendybovill/quiz-project/blob/8c172943d24ad70354edf92f787997a8cd29ee9c/documentation/quiz_site_flow_chart.pages.pdf
+https://github.com/wendybovill/quiz-project/blob/8c172943d24ad70354edf92f787997a8cd29ee9c/documentation/quiz_site_flow_chart_pages.pdf
 
 *Wireframe:* Adobe XD and Balsamiq. View Adobe XD pdf Design.
 
