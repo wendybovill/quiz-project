@@ -135,8 +135,8 @@ https://github.com/wendybovill/quiz-project/blob/8c172943d24ad70354edf92f787997a
 
 Wireframe with Balsamiq:
 
-[![Balsamiq Wireframe](https://github.com/wendybovill/quiz-project/blob/25c89b254e0e627b6ab8ee0defa3018db2489d03/documentation/Quiz%20on%20Desktop%20copy.png)
-[![Balsamiq Wireframe 2](https://github.com/wendybovill/quiz-project/blob/25c89b254e0e627b6ab8ee0defa3018db2489d03/documentation/Quiz%20on%20Mobile.png)
+![Balsamiq Wireframe](https://github.com/wendybovill/quiz-project/blob/25c89b254e0e627b6ab8ee0defa3018db2489d03/documentation/Quiz%20on%20Desktop%20copy.png)
+![Balsamiq Wireframe 2](https://github.com/wendybovill/quiz-project/blob/25c89b254e0e627b6ab8ee0defa3018db2489d03/documentation/Quiz%20on%20Mobile.png)
 	
 	
 	Site Mockup with Adobe XD:
@@ -200,7 +200,7 @@ https://github.com/wendybovill/quiz-project/blob/11e8b650f4a0aa7b9b3e368848c4266
 
 **SCREENSHOTS using DevTools for error fixing and troubleshooting:**
 
-[![Testing Local Storage Save](https://github.com/wendybovill/quiz-project/blob/27138fcb2b8b08dde29560c0f57279e0cfb998d8/documentation/Screenshot%202023-03-20%20at%2009.02.28.png)
+![Testing Local Storage Save](https://github.com/wendybovill/quiz-project/blob/27138fcb2b8b08dde29560c0f57279e0cfb998d8/documentation/Screenshot%202023-03-20%20at%2009.02.28.png)
 
 Pdf showing testing screenshots:
 https://github.com/wendybovill/quiz-project/blob/11e8b650f4a0aa7b9b3e368848c4266e48e8ecca/documentation/Testing_screenshots.pdf
@@ -241,10 +241,7 @@ Handwritten notes forming part of development and testing:
 |-----------------------------------------------------------------------|
 | ![Finished Site Desktop Index Page](https://github.com/wendybovill/quiz-project/blob/11e8b650f4a0aa7b9b3e368848c4266e48e8ecca/documentation/Wellbeing_Site.png)|
 | Screenshot showing second part of Index Page Finished Site Desktop View  |
-| ![Finished Site Index Page Part 2](https://github.com/wendybovill/milestone-project-one/blob/cf589814f144ad82fd843557ceed19e68b7346e7/documentation/site2.png)|
-| Screenshot showing third part of Index Page Finished Site Desktop View  |
-| ![Finished Site Index Page Part 3](https://github.com/wendybovill/milestone-project-one/blob/cf589814f144ad82fd843557ceed19e68b7346e7/documentation/site3.png)|
-| Screenshot fourth part of Index Page Finished Site Desktop View  |
-| ![Finished Site Index Page Part 4](https://github.com/wendybovill/milestone-project-one/blob/cf589814f144ad82fd843557ceed19e68b7346e7/documentation/site4.png)|
+| [![Finished Site MD File showing all screenshots](https://github.com/wendybovill/quiz-project/blob/15c9a9496ad8b7691a7cd005b5b8162ca2ce3179/documentation/Finished_Site_Screenshots.md)|
+
 
 
