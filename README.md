@@ -188,7 +188,8 @@ https://github.com/wendybovill/quiz-project/blob/b10e80529ddd6f52949056413579c37
 
 **TEST CASES:**
 
-
+Selenium IDE Automated Testing:
+https://github.com/wendybovill/quiz-project/blob/b09ecb85aaec79205f4314ee57748bf0c68bc3ba/documentation/Selenium_IDE_wellbeing-quiz.pdf
 
 **SCREENSHOTS using DevTools for error fixing and troubleshooting:**
 
