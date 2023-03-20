@@ -5,8 +5,7 @@ html {
     background: rgba(253, 187, 45, 0.5);
     background: -moz-linear-gradient(45deg, rgba(253, 187, 45, 0.5) 0%, rgba(34, 193, 195, 0.5) 8%, rgba(214, 218, 175, 0.5) 24%, rgba(214, 218, 175, 0.5) 71%, rgba(34, 193, 195, 0.5) 92%, rgba(253, 187, 45, 0.5) 100%);
     background: -webkit-linear-gradient(45deg, rgba(253, 187, 45, 0.5) 0%, rgba(34, 193, 195, 0.5) 8%, rgba(214, 218, 175, 0.5) 24%, rgba(214, 218, 175, 0.5) 71%, rgba(34, 193, 195, 0.5) 92%, rgba(253, 187, 45, 0.5) 100%);
-    background: linear-gradient(45deg, rgba(253, 187, 45, 0.5) 0%, rgba(34, 193, 195, 0.5) 8%, rgba(214, 218, 175, 0.5) 24%, rgba(214, 218, 175, 0.5) 71%, rgba(34, 193, 195, 0.5) 92%, rgba(253, 187, 45, 0.5) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#fdbb2d", endColorstr="#fdbb2d", GradientType=1);
+    background: linear-gradient(45deg, rgba(253, 187, 45, 0.5) 0%, rgba(34, 193, 195, 0.5) 8%, rgba(214, 218, 175, 0.5) 24%, rgba(214, 218, 175, 0.5) 71%, rgba(34, 193, 195, 0.5) 92%, rgba(253, 187, 45, 0.5) 100%);filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#fdbb2d", endColorstr="#fdbb2d", GradientType=1);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
