@@ -1,5 +1,7 @@
 ** Finished Desktop Screenshots **
 
+![Desktop Site](https://github.com/wendybovill/quiz-project/blob/11e8b650f4a0aa7b9b3e368848c4266e48e8ecca/documentation/Wellbeing_Site.png)
+
 ![Desktop Site](https://github.com/wendybovill/quiz-project/blob/8cce6327c3abf3f2da92f6797ba7884932b65978/documentation/images/WB-site2.png)
 
 ![Desktop Site](https://github.com/wendybovill/quiz-project/blob/8cce6327c3abf3f2da92f6797ba7884932b65978/documentation/images/WB-site3.png)
