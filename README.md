@@ -141,7 +141,7 @@ Wireframe with Balsamiq:
 	
 	Site Mockup with Adobe XD:
 	
-https://github.com/wendybovill/quiz-project/blob/b10e80529ddd6f52949056413579c3713e05a5cc/documentation/Site_Mockups.pdf
+[MD Site Mockup File](https://github.com/wendybovill/quiz-project/blob/094d886b9de95ae66c4337ce72bfe9c0fd4b61fd/documentation/Site_Mockups.md)
 
 
 	*Logo:* Formito.com Free Favicon Maker
@@ -218,7 +218,7 @@ Document of validation and errors can be viewed by clicking on the link below:
 
 
 Handwritten notes forming part of development and testing:
-[https://github.com/wendybovill/quiz-project/blob/1fefa18dae6171a7e9e3aefb4e5f9d0570cda9ae/documentation/handwritten_notes.md](https://github.com/wendybovill/quiz-project/blob/1fefa18dae6171a7e9e3aefb4e5f9d0570cda9ae/documentation/handwritten_notes.md)
+![https://github.com/wendybovill/quiz-project/blob/1fefa18dae6171a7e9e3aefb4e5f9d0570cda9ae/documentation/handwritten_notes.md](https://github.com/wendybovill/quiz-project/blob/1fefa18dae6171a7e9e3aefb4e5f9d0570cda9ae/documentation/handwritten_notes.md)
 
 
 *Refereces used to assist debugging:*
