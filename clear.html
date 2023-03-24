@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="quiz, health, fitness, wellbeing, diet, anxiety, self help, panic, fear, cbt, therapy, mindfulness">
     <meta name="description" content="A quiz on mental health and physical health to raise awareness of how the two are linked and effect each other.">
-    
+
     <!--  Favicon links  -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
@@ -20,28 +20,33 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-
-        <!-- The player can choose to clear all the scores from their browser -->
-        <div id="end" class="flex-center flex-column middlepage">
-            <h1 class="h1">Remove Score??</h1>
-            <h2 class="h2">Are you sure you want to delete all scores?</h2>
-            <p class="warning">WARNING: This will remove all the scores saved in the system.</p>
-
-            <form id="form_removeScore">
-                <button type="submit" class="button" id="clearScore" onclick="clearScoresConfirm(event);">Clear All Scores</button> </form>
-
-            <!-- The player can choose to return to the front page, view the topscores, or restart the quiz -->
-            <h2 class="query-text">What would you like to do next?</h2>
-            <a class="button" href="quiz.html">Start Again</a>
-            <a class="button" href="topscores.html">View Top Scores</a>
-            <a class="button" href="index.html">Go Home</a>
+    <header>
+        <div class="logo">
+            <a class="link" href="index.html"><img class="logo" src="assets/images/android-chrome-512x512.png" alt="This is the Wellbeing Logo, it is a cartoon sun in yellow with a darkteal background"></a>
         </div>
-        <div class="quiz-logo">
-            <a class="link" href="index.html"><img class="quiz-logo" src="assets/images/android-chrome-512x512.png" alt="This is the Wellbeing Logo, it is a cartoon sun in yellow with a darkteal background"></a>
+    </header>
+    <main>
+        <div class="container-fluid">
+
+            <!-- The player can choose to clear all the scores from their browser -->
+            <div id="end" class="flex-center flex-column middlepage">
+                <h1 class="h1">Remove Score??</h1>
+                <h2 class="h2">Are you sure you want to delete all scores?</h2>
+                <p class="warning">WARNING: This will remove all the scores saved in the system.</p>
+
+                <form id="form_removeScore">
+                    <button type="submit" class="button" id="clearScore" onclick="clearScoresConfirm(event);">Clear All Scores</button> </form>
+
+                <!-- The player can choose to return to the front page, view the topscores, or restart the quiz -->
+                <h2 class="query-text">What would you like to do next?</h2>
+                <a class="button" href="quiz.html">Start Again</a>
+                <a class="button" href="topscores.html">View Top Scores</a>
+                <a class="button" href="index.html">Go Home</a>
+            </div>
+
         </div>
-        <footer class="container-fluid col-12">&copy; 2023 Wendy Bovill</footer>
-    </div>
+    </main>
+    <footer class="container-fluid col-12">&copy; 2023 Wendy Bovill</footer>
 
     <!-- Script Section -->
     <script src="scripts/remove_user_score.js"></script>

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="quiz, health, fitness, wellbeing, diet, anxiety, self help, panic, fear, cbt, therapy, mindfulness">
     <meta name="description" content="A quiz on mental health and physical health to raise awareness of how the two are linked and effect each other.">
-    
+
     <!--  Favicon links  -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
@@ -20,33 +20,37 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-
-        <!-- This is the end section after the quiz is played, the player gets the option to save their score -->
-        <div id="end" class="flex-center flex-column middlepage">
-            <h1 class="h1">Congratulations for finishing the quiz</h1>
-            <br>
-            <br>
-            <h2 class="your-score">Your Score is</h2>
-            <h1 id="finalScore" class="finalscore"></h1>
-
-            <!-- The player can type in their username and save their score -->
-            <form id="form_saveScore" class="form-center">
-                <label for="username" class="h2">Do you want to save your scores?</label>
-                <input type="text" name="username" id="username" placeholder="username" class="username">
-                <button type="submit" class="button" id="saveScore" onclick="saveTopScore(event);" disabled>Save Score</button>
-            </form>
-            <!-- The player can choose to return to the front page, view the topscores, or restart the quiz -->
-            <h2 class="h2">What would you like to do next?</h2>
-            <a class="button" href="quiz.html">Restart Wellbeing Quiz</a>
-            <a class="button" href="topscores.html">View Top Scores</a>
-            <a class="button" href="index.html">Go Home</a>
+    <header>
+        <div class="logo">
+            <a class="link" href="index.html"><img src="assets/images/android-chrome-512x512.png" alt="This is the Wellbeing Logo, it is a cartoon sun in yellow with a darkteal background"></a>
         </div>
-        <div class="quiz-logo">
-            <a class="link" href="index.html"><img class="quiz-logo" src="assets/images/android-chrome-512x512.png" alt="This is the Wellbeing Logo, it is a cartoon sun in yellow with a darkteal background"></a>
+    </header>
+    <main>
+        <div class="container-fluid">
+
+            <!-- This is the end section after the quiz is played, the player gets the option to save their score -->
+            <div id="end" class="flex-center flex-column middlepage">
+                <h1 class="h1">Congratulations for finishing the quiz</h1>
+                <br>
+                <br>
+                <h2 class="your-score">Your Score is</h2>
+                <h1 id="finalScore" class="finalscore"></h1>
+
+                <!-- The player can type in their username and save their score -->
+                <form id="form_saveScore" class="form-center">
+                    <label for="username" class="h2">Do you want to save your scores?</label>
+                    <input type="text" name="username" id="username" placeholder="username" class="username">
+                    <button type="submit" class="button" id="saveScore" onclick="saveTopScore(event);" disabled>Save Score</button>
+                </form>
+                <!-- The player can choose to return to the front page, view the topscores, or restart the quiz -->
+                <h2 class="h2">What would you like to do next?</h2>
+                <a class="button" href="quiz.html">Restart Wellbeing Quiz</a>
+                <a class="button" href="topscores.html">View Top Scores</a>
+                <a class="button" href="index.html">Go Home</a>
+            </div>
         </div>
-        <footer class="container-fluid col-12">&copy; 2023 Wendy Bovill</footer>
-    </div>
+    </main>
+    <footer class="container-fluid col-12">&copy; 2023 Wendy Bovill</footer>
 
     <!-- Script Section -->
     <script src="scripts/save_score.js"></script>

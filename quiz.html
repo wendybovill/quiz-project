@@ -21,70 +21,76 @@
 </head>
 
 <body>
-    <div class="fullwidth">
-        <div>
-            <!-- Display HUD -->
-            <div id="hud">
-                <!-- Display Question Number so far -->
-                <div id="hud-item" class="hud-wrapper">
-                    <!-- Display Progress Bar -->
-                    <div class="progressBar-wrapper">
-                        <div>
-                            <p id="progressInfo" class="hud-prefix">
-                                Question
-                            </p>
-                        </div>
-                        <div id="progressBar">
-                            <div id="progressFullBar"></div>
+    <header>
+        <div class="fullwidth">
+            <div>
+                <!-- Display HUD -->
+                <div id="hud">
+                    <!-- Display Question Number so far -->
+                    <div id="hud-item" class="hud-wrapper">
+                        <!-- Display Progress Bar -->
+                        <div class="progressBar-wrapper">
+                            <div>
+                                <p id="progressInfo" class="hud-prefix">
+                                    Question
+                                </p>
+                            </div>
+                            <div id="progressBar">
+                                <div id="progressFullBar"></div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="justify-content-around">
-                    <div id="loader"></div>
-                </div>
-                <!-- Display Score -->
-                <div id="hud-item2" class="hud-wrapper">
-                    <p class="hud-prefix-right">
-                        Score
-                    </p>
-                    <h1 class="hud-main-text" id="score">
-                        0
-                    </h1>
+                    <div class="justify-content-around">
+                        <div id="loader"></div>
+                    </div>
+                    <!-- Display Score -->
+                    <div id="hud-item2" class="hud-wrapper">
+                        <p class="hud-prefix-right">
+                            Score
+                        </p>
+                        <h1 class="hud-main-text" id="score">
+                            0
+                        </h1>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container-fluid">
+    </header>
+    <main>
+        <div class="container-fluid">
 
-        <!-- This content is for the main quiz Q & A -->
-        <div id="quiz" class="justify-center flex-column hidden middlepage">
-            <div id="quiz-wrapper">
-                <h2 id="question"></h2>
+            <!-- This content is for the main quiz Q & A -->
+            <div id="quiz" class="justify-center flex-column hidden middlepage">
+                <div id="quiz-wrapper">
+                    <h2 id="question"></h2>
 
-                <div class="option-container">
-                    <p class="option-prefix">A</p>
-                    <p data-number="1" class="option-text"></p>
+                    <div class="option-container">
+                        <p class="option-prefix">A</p>
+                        <p data-number="1" class="option-text"></p>
+                    </div>
+                    <div class="option-container">
+                        <p class="option-prefix">B</p>
+                        <p data-number="2" class="option-text"></p>
+                    </div>
+                    <div class="option-container">
+                        <p class="option-prefix">C</p>
+                        <p data-number="3" class="option-text"></p>
+                    </div>
+                    <div class="option-container">
+                        <p class="option-prefix">D</p>
+                        <p data-number="4" class="option-text"></p>
+                    </div>
                 </div>
-                <div class="option-container">
-                    <p class="option-prefix">B</p>
-                    <p data-number="2" class="option-text"></p>
-                </div>
-                <div class="option-container">
-                    <p class="option-prefix">C</p>
-                    <p data-number="3" class="option-text"></p>
-                </div>
-                <div class="option-container">
-                    <p class="option-prefix">D</p>
-                    <p data-number="4" class="option-text"></p>
-                </div>
-            </div>
-            <div class="quiz-logo"><a class="button quiz-button" href="index.html">Quit Quiz</a><br>
-                <a href="index.html"><img class="quiz-logo" src="assets/images/android-chrome-512x512.png" alt="This is the Wellbeing Logo, it is a cartoon sun in yellow with a darkteal background" title="Home"></a>
+                <a class="button quiz-button" href="index.html">Quit Quiz</a>
             </div>
         </div>
+        <div class="quiz-logo">
+            <a class="link" href="index.html"><img src="assets/images/android-chrome-512x512.png" alt="This is the Wellbeing Logo, it is a cartoon sun in yellow with a darkteal background"></a>
+        </div>
+    </main>
 
-        <footer class="container-fluid col-12">&copy; 2023 Wendy Bovill</footer>
-    </div>
+    <footer class="container-fluid col-12">&copy; 2023 Wendy Bovill</footer>
+
     <!-- Script Section -->
     <script src="scripts/quiz.js"></script>
 </body>

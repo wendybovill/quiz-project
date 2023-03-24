@@ -1,22 +1,21 @@
 /* Reduce font size overall */
 
-html {
-    height: 100%;
-    background: rgba(253, 187, 45, 0.5);
-    background: -moz-linear-gradient(45deg, rgba(253, 187, 45, 0.5) 0%, rgba(34, 193, 195, 0.5) 8%, rgba(214, 218, 175, 0.5) 24%, rgba(214, 218, 175, 0.5) 71%, rgba(34, 193, 195, 0.5) 92%, rgba(253, 187, 45, 0.5) 100%);
-    background: -webkit-linear-gradient(45deg, rgba(253, 187, 45, 0.5) 0%, rgba(34, 193, 195, 0.5) 8%, rgba(214, 218, 175, 0.5) 24%, rgba(214, 218, 175, 0.5) 71%, rgba(34, 193, 195, 0.5) 92%, rgba(253, 187, 45, 0.5) 100%);
-    background: linear-gradient(45deg, rgba(253, 187, 45, 0.5) 0%, rgba(34, 193, 195, 0.5) 8%, rgba(214, 218, 175, 0.5) 24%, rgba(214, 218, 175, 0.5) 71%, rgba(34, 193, 195, 0.5) 92%, rgba(253, 187, 45, 0.5) 100%);filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#fdbb2d", endColorstr="#fdbb2d", GradientType=1);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
 :root {
     font-size: 62.5%;
 }
 
 body {
-    background: unset!important;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background: rgba(253, 187, 45, 0.5);
+    background: -moz-linear-gradient(45deg, rgba(253, 187, 45, 0.5) 0%, rgba(34, 193, 195, 0.5) 8%, rgba(214, 218, 175, 0.5) 24%, rgba(214, 218, 175, 0.5) 71%, rgba(34, 193, 195, 0.5) 92%, rgba(253, 187, 45, 0.5) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(253, 187, 45, 0.5) 0%, rgba(34, 193, 195, 0.5) 8%, rgba(214, 218, 175, 0.5) 24%, rgba(214, 218, 175, 0.5) 71%, rgba(34, 193, 195, 0.5) 92%, rgba(253, 187, 45, 0.5) 100%);
+    background: linear-gradient(45deg, rgba(253, 187, 45, 0.5) 0%, rgba(34, 193, 195, 0.5) 8%, rgba(214, 218, 175, 0.5) 24%, rgba(214, 218, 175, 0.5) 71%, rgba(34, 193, 195, 0.5) 92%, rgba(253, 187, 45, 0.5) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#fdbb2d", endColorstr="#fdbb2d", GradientType=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 * {
@@ -24,6 +23,11 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0;
     margin: 0;
+}
+
+header {
+    height: 80px;
+    margin: 10px;
 }
 
 
@@ -159,7 +163,7 @@ a.link:hover {
 }
 
 .quiz-button {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 
@@ -176,9 +180,11 @@ div.logo {
 }
 
 div.quiz-logo {
-    text-align: center;
-    padding: 20px 5px 5px 5px;
+    text-align: left;
+    padding: 0px 5px 5px 5px;
     height: 100px;
+    margin: 2rem 0.5rem;
+    width: 100%;
 }
 
 .quiz-logo img {
@@ -196,7 +202,7 @@ div.container {
     display: block;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    margin-top: 25px;
     padding: 2rem;
     background: unset;
 }
@@ -294,9 +300,6 @@ footer {
 
 @media screen and (max-height: 670px) {
     /* Default style settings */
-    html {
-        height: 110%;
-    }
     div.logo {
         text-align: center;
         height: 80px;
@@ -393,7 +396,8 @@ footer {
         transform: none;
     }
     .quiz-button {
-        margin: 30px 5px 5px 5px;
+        margin: 5px;
+        text-align: center;
     }
     div.container {
         clear: both;
@@ -415,9 +419,6 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
-    html {
-        height: 180%;
-    }
     div.logo {
         text-align: center;
         height: 80px;
@@ -472,9 +473,6 @@ footer {
 
 @media screen and (max-width: 400px) {
     /* Default style settings */
-    html {
-        height: 250%;
-    }
     div.logo {
         text-align: center;
         height: 80px;
@@ -579,14 +577,14 @@ footer {
     a.quiz-button {
         margin: 10px 5px 5px 5px;
     }
-    div.container {
+    div.container-fluid {
         clear: both;
         width: 100vw;
-        height: calc(100%-100px);
+        height: auto;
         display: block;
         justify-content: center;
         align-items: center;
-        margin: 0;
+        margin-top: 25px;
         padding: 0.5rem;
         background: unset;
     }
@@ -600,9 +598,6 @@ footer {
 
 @media screen and (max-width: 250px) {
     /* Default style settings */
-    html {
-        height: 200%;
-    }
     div.logo {
         text-align: center;
         height: 80px;
