@@ -358,6 +358,7 @@ footer {
         padding-bottom: 1.5rem!important;
         text-align: center;
         padding-top: 2rem;
+        margin-top: 5px;
     }
     .h2 {
         font-size: 2rem;
@@ -419,6 +420,15 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
+    .h1 {
+        font-size: 4rem;
+        font-weight: 500;
+        margin-bottom: 3rem!important;
+        padding-bottom: 2rem!important;
+        text-align: center;
+        padding-top: 2rem;
+        margin-top: 10px;
+    }
     div.logo {
         text-align: center;
         height: 80px;
@@ -537,6 +547,7 @@ footer {
         padding-bottom: 1.5rem!important;
         text-align: center;
         padding-top: 2rem;
+        margin-top: 10px;
     }
     .h2 {
         font-size: 2rem;
@@ -663,6 +674,7 @@ footer {
         padding-bottom: 1.5rem!important;
         text-align: center;
         padding-top: 1rem;
+        margin-top: 10px;
     }
     .h2 {
         font-size: 1.8rem;
