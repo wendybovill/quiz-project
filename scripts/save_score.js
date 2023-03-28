@@ -10,10 +10,9 @@ const username = document.getElementById('username');
 const saveScore = document.getElementById('saveScore');
 const finalScore = document.getElementById('finalScore');
 const latestScore = localStorage.getItem('latestScore');
-var noScores = [];
 
 /* Retrieve the top scores from local storage */
-const topScores = JSON.parse(localStorage.getItem('topScores')) || [];
+var topScores = JSON.parse(localStorage.getItem('topScores')) || [];
 
 /* How many scores to display? */
 const MAX_TOP_SCORES = 5;
@@ -42,5 +41,5 @@ saveTopScore = (e) => {
     /* Save topscores to local storage in a JSON string */
     localStorage.setItem('topScores', JSON.stringify(topScores));
     window.location.assign('end.html'); //stay on end.html page after saving scores. player can choose what to do next
-    alert('Your Score has been saved');
+    alert('Your Score has been saved, choose what to do next');
 };

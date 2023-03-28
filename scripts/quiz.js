@@ -17,7 +17,7 @@ const progressFullBar = document.getElementById('progressFullBar');
 const quiz = document.getElementById('quiz');
 const loader = document.getElementById('loader');
 
-let currentQuestion = {};
+let currentQuestion = [{}, ];
 let acceptingAnswers = false;
 let score = 0;
 let counter = 0;
@@ -89,12 +89,14 @@ getNextQuestion = () => {
     //Selecting random questions from the question object array
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
-    question.innerHTML = currentQuestion.question;
-    //changing the innerText for the Questions in relation to the option chosen
-    options.forEach(option => {
-        const number = option.dataset['number'];
-        option.innerHTML = currentQuestion['option' + number];
-    });
+    if (currentQuestion) {
+        question.innerHTML = currentQuestion.question;
+        //changing the innerText for the Questions in relation to the option chosen
+        options.forEach(option => {
+            const number = option.dataset['number'];
+            option.innerHTML = currentQuestion['option' + number];
+        })
+    };
 
     // splitting up the questions so they don't get repeated questions    
     availableQuestions.splice(questionIndex, 1);

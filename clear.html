@@ -31,11 +31,19 @@
             <!-- The player can choose to clear all the scores from their browser -->
             <div id="end" class="flex-center flex-column middlepage">
                 <h1 class="h1">Remove Score??</h1>
-                <h2 class="h2">Are you sure you want to delete all scores?</h2>
-                <p class="warning">WARNING: This will remove all the scores saved in the system.</p>
+                <!-- The player can type in their username and remove their OWN score -->
+                <form id="form_removeUser" class="form-center">
+                    <label for="username" class="h2">Do you want to remove your scores?</label>
+                    <input type="text" name="username" id="username" placeholder="username" class="username">
+                    <button type="submit" class="button" id="removeUser" onclick="removeUserConfirm(event);">Remove my Scores</button>
+                </form>
+
+                <h1 class="h1">Remove All User Scores??</h1>
+                <h2 class="h2">Are you sure you want to delete ALL scores?</h2>
+                <p class="warning">WARNING: This will remove ALL the scores saved in the system.</p>
 
                 <form id="form_removeScore">
-                    <button type="submit" class="button" id="clearScore" onclick="clearScoresConfirm(event);">Clear All Scores</button>
+                    <button type="submit" class="button" id="clearScore" onclick="clearScoresConfirm(event);">Clear ALL Scores</button>
                 </form>
 
                 <!-- The player can choose to return to the front page, view the topscores, or restart the quiz -->
