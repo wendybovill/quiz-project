@@ -158,6 +158,10 @@ Research generated custom questions and answers.
     writing (and researching).
 
 
+## Design Variation:
+The site has extra features added which are not in the original mockups/wireframes. A page has been added which will enable the user to remove individual user scores or clear all scores. This also has Alerts to the user to confirm their choices before final action is taken.
+
+
 ## Future Development:
 
 1. Integrate additional General Knowledge quiz, and add more questions to the Wellbeing quiz, which will require
