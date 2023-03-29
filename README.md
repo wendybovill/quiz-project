@@ -26,7 +26,7 @@
 3. Questions on wellbeing knowledge in relation to mental health. The questions are customised after research performed
    and all questions and answers are created by myself, using knowledge accumulated from research.
 
-4. Option to store scores or remove scores
+4. Option to store scores or remove scores, either for individual user or all scores removed.
 
 5. Simple form to fill in username and submit it to local storage to store their score.
 
@@ -160,11 +160,10 @@ Research generated custom questions and answers.
 
 ## Future Development:
 
-1. 	Integrate additional General Knowledge quiz, and add more questions to the Wellbeing quiz.
+1. Integrate additional General Knowledge quiz, and add more questions to the Wellbeing quiz, which will require
+   another scoring system for the additional quiz to keep the specific quiz scores separate.
 
-2. 	Set method for users to remove their own individual scores instead of clearing all the scores.
-
-3. 	Add a poll for users to take.
+2. Add a poll for users to take.
 	
 
 # Acknowledgements
